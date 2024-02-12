@@ -1,28 +1,28 @@
 # Notes
   # Fire damage is set to false by default to stop players from burning in the lobby
 
-# World Border
+# WORLD BORDER
 worldborder set 256
 worldborder damage amount 0.25
 worldborder damage buffer 0
 worldborder center 256.00 -255.00
 
-# Broken Blocks
+# BROKEN BLOCKS
 gamerule blockExplosionDropDecay true
 gamerule mobExplosionDropDecay true
 gamerule tntExplosionDropDecay true
 
-# Commands
+# COMMANDS
 gamerule commandBlockOutput true
 gamerule logAdminCommands false
 gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 
-# Damage
+# DAMAGE TYPES
 gamerule fireDamage false
 gamerule freezeDamage true
 
-# Environment
+# ENVRIONMENT
 gamerule doFireTick true
 gamerule doWeatherCycle false
 gamerule globalSoundEvents false
@@ -32,7 +32,7 @@ gamerule randomTickSpeed 0
 gamerule snowAccumulationHeight 0
 gamerule spectatorsGenerateChunks false
 
-# Mobs
+# MOBS
 gamerule disableRaids true
 gamerule doEntityDrops false
 gamerule doMobLoot false
@@ -45,7 +45,7 @@ gamerule mobGriefing false
 gamerule universalAnger true
 gamerule forgiveDeadPlayers true
 
-# Player
+# PLAYER
 gamerule announceAdvancements false
 gamerule disableElytraMovementCheck false
 # gamerule doImmediateRespawn true
@@ -55,5 +55,5 @@ gamerule showDeathMessages true
 gamerule keepInventory true
 gamerule spawnRadius 0
 
-# Status
-tellraw @p[name="BlackeyeI"] "Gamerules set"
+# STATUS
+tellraw @a "Gamerules set"

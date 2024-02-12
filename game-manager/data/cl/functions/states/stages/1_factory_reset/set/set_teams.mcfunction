@@ -1,7 +1,7 @@
 # Notes
   # Friendly fire is set during the round since lobby players may not get immediantly teleported.
 
-# Lobby
+# LOBBY
 team add Lobby "Lobby"
 team modify Lobby collisionRule never
 team modify Lobby color dark_purple
@@ -10,7 +10,7 @@ team modify Lobby friendlyFire false
 team modify Lobby nametagVisibility always
 team modify Lobby seeFriendlyInvisibles true
 
-# FFA
+# SOLO
 team add FFA "FFA"
 team modify FFA collisionRule always
 team modify FFA color gray
@@ -19,6 +19,7 @@ team modify FFA friendlyFire false
 team modify FFA nametagVisibility always
 team modify FFA seeFriendlyInvisibles false
 
+# MULTI
 # Blue
 team add Blue "Blue"
 team modify Blue collisionRule pushOtherTeams
@@ -55,7 +56,7 @@ team modify Yellow friendlyFire false
 team modify Yellow nametagVisibility hideForOtherTeams
 team modify Yellow seeFriendlyInvisibles true
 
-# Mobs
+# MOBS
 team add Mobs "Mobs"
 team modify Mobs collisionRule pushOtherTeams
 team modify Mobs color white
@@ -64,5 +65,5 @@ team modify Mobs friendlyFire false
 team modify Mobs nametagVisibility always
 team modify Mobs seeFriendlyInvisibles true
 
-# Status
-tellraw @p[name="BlackeyeI"] "Teams set"
+# STATUS
+tellraw @a "Teams set"

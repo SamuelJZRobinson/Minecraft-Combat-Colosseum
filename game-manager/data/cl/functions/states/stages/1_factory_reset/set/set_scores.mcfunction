@@ -89,5 +89,5 @@ scoreboard players reset * GotoLobby
 scoreboard objectives add Exception dummy {"bold":true,"color":"white","text":"Exception"}
 scoreboard players set doException Exception 0
 
-# Status
-tellraw @p[name="BlackeyeI"] "Scores set"
+# STATUS
+tellraw @a "Scores set"

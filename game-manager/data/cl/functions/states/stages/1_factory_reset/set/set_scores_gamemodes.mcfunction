@@ -1,8 +1,6 @@
 # scoreboard objectives add PlayerDeaths deathCount {"bold":true,"color":"white","text":"Player Deaths"}
 
-####################
-# KOTH (Multi)
-####################
+# KOTH (MULTI)
 scoreboard objectives add GameKoth dummy {"bold":true,"color":"white","text":"KOTH"}
 scoreboard players set CAPTURE_DELAY GameKoth 5
 scoreboard players set contestingCount GameKoth 0
@@ -17,19 +15,16 @@ scoreboard players set yellowScore GameKoth 0
 
 # In FFA tag the individual who has captured the hill as "hillOwner" then clear it after 
 
-####################
 # KOTH (FFA)
-####################
 
-####################
-# PVP And Super PVP
-####################
+# PVP AND SUPER PVP
 # scoreboard objectives add PlayerKills playerKillCount {"bold":true,"color":"white","text":"Player Kills"}
 # scoreboard players reset * PlayerKills
 
-####################
-# Spleef
-####################
+# SPLEEF
 # scoreboard objectives add Spleef dummy {"bold":true,"color":"white","text":"PVP"}
 # scoreboard objectives add Spleef dummy {"bold":true,"color":"white","text":"Spleef"}
 # scoreboard objectives add SpleefBreak dummy {"bold":true,"color":"white","text":"SpleefBreak"}
+
+# STATUS
+tellraw @a "Gamemode scores set"
