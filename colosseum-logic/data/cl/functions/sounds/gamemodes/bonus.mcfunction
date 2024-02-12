@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.chime ambient @a ~ ~ ~ 0.6 2 0

@@ -1,0 +1,1 @@
+spreadplayers 256.00 -255.00 8 22 under -26 false @a[team=FFA]

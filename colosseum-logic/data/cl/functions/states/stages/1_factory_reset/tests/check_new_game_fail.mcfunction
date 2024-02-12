@@ -1,0 +1,1 @@
+tellraw @a {"text":"[Error] Cannot reset while game is running!","bold":false,"color":"red"}

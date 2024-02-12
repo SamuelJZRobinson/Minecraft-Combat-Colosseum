@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:cobblestone",
+          "minecraft:obsidian",
+          "minecraft:jungle_planks",
+          "minecraft:jungle_trapdoor",
+          "minecraft:ladder",
+          "minecraft:cobweb",
+          "minecraft:lava_bucket",
+          "minecraft:water_bucket"
+        ]
+      }
+    }
+  }
+}

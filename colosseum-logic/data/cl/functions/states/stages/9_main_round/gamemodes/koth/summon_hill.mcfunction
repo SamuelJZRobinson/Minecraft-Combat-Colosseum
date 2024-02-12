@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Team:"Mobs",Silent:1b,Invulnerable:1b,Marker:1b,Invisible:0b,Tags:["hill","spin"],DisabledSlots:4144959}
+spreadplayers 256.00 -255.00 0 3 under -0 false @e[team=Mobs,type=minecraft:armor_stand,tag=hill]

@@ -1,0 +1,10 @@
+say approved
+
+scoreboard players set loading GameStatus 1
+scoreboard players set lobbyAliveCount PlayerCount 0
+
+# Place Blank Signs
+function cl:states/stages/2_lobby/place_empty_signs
+
+# Call Next Phase
+schedule function cl:states/stages/increment_state 1t replace

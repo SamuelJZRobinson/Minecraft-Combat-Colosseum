@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:cobblestone\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:obsidian\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:cobblestone\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:jungle_planks\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:jungle_trapdoor\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:ladder\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:cobweb\"}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Item:{id:\"minecraft:ladder\"}}"
+      }
+    }
+  ]
+}

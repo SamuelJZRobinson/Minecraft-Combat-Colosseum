@@ -1,0 +1,5 @@
+execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run data merge block 261 -29 -355 {Text2:'{"text":"FFA","color":"red"}',Text4:'{"text":"Min 2 players","color":"gold"}'}
+execute if score teamCount Settings matches 1 if score isSolo Settings matches 1 run data merge block 261 -29 -355 {Text2:'{"text":"1","color":"red"}',Text4:'{"text":"Solo","color":"gold"}'}
+execute if score teamCount Settings matches 2 run data merge block 261 -29 -355 {Text2:'{"text":"2","color":"red"}',Text4:'{"text":"Min 2 players","color":"gold"}'}
+execute if score teamCount Settings matches 3 run data merge block 261 -29 -355 {Text2:'{"text":"3","color":"red"}',Text4:'{"text":"Min 3 players","color":"gold"}'}
+execute if score teamCount Settings matches 4 run data merge block 261 -29 -355 {Text2:'{"text":"4","color":"red"}',Text4:'{"text":"Min 4 players","color":"gold"}'}

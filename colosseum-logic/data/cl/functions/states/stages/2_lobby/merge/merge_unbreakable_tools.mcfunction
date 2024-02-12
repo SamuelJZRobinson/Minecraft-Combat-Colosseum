@@ -1,0 +1,2 @@
+execute if score doUnbreakableTools Settings matches 0 run data merge block 249 -30 -355 {Text2:'{"text":"False","color":"red"}'}
+execute if score doUnbreakableTools Settings matches 1 run data merge block 249 -30 -355 {Text2:'{"text":"True","color":"red"}'}

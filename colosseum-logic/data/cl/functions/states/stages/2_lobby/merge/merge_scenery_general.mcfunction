@@ -1,0 +1,2 @@
+execute if score scenery Settings matches 1 run data merge block 257 -29 -355 {Text2:'{"text":"Flatland","color":"red"}'}
+execute if score scenery Settings matches 2 run data merge block 257 -29 -355 {Text2:'{"text":"Villa","color":"red"}'}

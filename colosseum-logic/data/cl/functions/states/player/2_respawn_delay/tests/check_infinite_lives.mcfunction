@@ -1,0 +1,2 @@
+execute if score lives Settings matches 0 run function cl:states/player/2_respawn_delay/tests/check_instant_respawn
+execute if score lives Settings matches 1.. run function cl:states/player/2_respawn_delay/tests/check_infinite_lives_fail

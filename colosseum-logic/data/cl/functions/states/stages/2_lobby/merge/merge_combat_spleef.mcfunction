@@ -1,0 +1,2 @@
+execute if score combatClass Settings matches 1 run data merge block 262 -29 -355 {Text2:'{"text":"Shovel","color":"red"}'}
+execute if score combatClass Settings matches 2 run data merge block 262 -29 -355 {Text2:'{"text":"Abilities","color":"red"}'}
