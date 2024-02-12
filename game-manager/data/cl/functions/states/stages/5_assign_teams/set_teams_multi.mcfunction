@@ -10,4 +10,4 @@ execute if score teamSelect PlayerCount matches 4 run team join Yellow @r[team=L
 
 # Loop
 execute if entity @e[type=player,team=Lobby] run function cl:states/stages/5_assign_teams/set_teams_multi
-execute unless entity @e[type=player,team=Lobby] run schedule function cl:states/stages/increment_state 1t replace
+execute unless entity @e[type=player,team=Lobby] run function cl:states/stages/increment_state

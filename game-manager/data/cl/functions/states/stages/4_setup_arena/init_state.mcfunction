@@ -4,5 +4,5 @@ schedule function cl:states/stages/4_setup_arena/place/place_edge_trap 20t repla
 execute if score gracePeriod Settings matches 1.. if score teamCount Settings matches 2.. run schedule function cl:states/stages/4_setup_arena/place/place_walls 30t replace
 
 # Call Next State
-say setup arena
+tellraw @a "state 4"
 schedule function cl:states/stages/increment_state 40t replace

@@ -29,4 +29,4 @@ execute if score cleanArenaBottom GameStatus matches 1 run schedule function cl:
 
 # Call Next State
 say manage clear
-# schedule function cl:states/stages/increment_state 1t replace
+# schedule schedule schedule function cl:states/stages/increment_state 1t replace 1t replace 1t replace

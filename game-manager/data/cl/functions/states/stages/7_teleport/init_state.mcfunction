@@ -9,5 +9,7 @@ execute if score teamCount Settings matches 2.. run function cl:states/stages/7_
 # Give Initial Gear And Prevent Sound Spam
 execute as @a[team=!Lobby] run function cl:states/player/1_give_gear/init_state
 
+tellraw @a "state 7"
+
 # Call Next State
 schedule function cl:states/stages/increment_state 1t replace

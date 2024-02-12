@@ -11,6 +11,8 @@ say @a manage round
   execute if score roundTime Settings matches 1.. run function cl:states/stages/9_main_round/properties/set_round_time
 
 # Status
+tellraw @a "state 9"
+
 title @a actionbar {"text":"Fight","bold":true,"color":"gold"}
 function cl:sounds/timer_grace_end
 
