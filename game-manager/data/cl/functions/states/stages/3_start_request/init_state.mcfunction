@@ -7,4 +7,4 @@ title @a times 0t 20t 5t
 tellraw @a "state 3"
 
 # Perform Checks
-function cl:states/stages/3_start_request/tests/check_new_game
+function cl:states/stages/3_start_request/tests/manage_tests

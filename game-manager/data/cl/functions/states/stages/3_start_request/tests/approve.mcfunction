@@ -1,3 +1,5 @@
+say @a approve
+
 # Set Scores
 scoreboard players set loading GameStatus 1
 scoreboard players set lobbyAliveCount PlayerCount 0

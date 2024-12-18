@@ -1,1 +1,1 @@
-# execute if score scenery Settings matches 1 run data merge block 257 -29 -355 {Text2:'{"text":"Archery Range","color":"red"}'}
+# execute if score scenery Settings matches 1 run data merge block 258 -29 -153 {Text2:'{"text":"Archery Range","color":"red"}'}

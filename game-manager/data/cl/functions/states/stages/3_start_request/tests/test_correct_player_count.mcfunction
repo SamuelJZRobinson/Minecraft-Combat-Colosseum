@@ -5,5 +5,5 @@ execute if score isSolo Settings matches 1 run scoreboard players set goal Playe
 
 # Count players
 execute store result score lobbyAliveCount PlayerCount if entity @a[team=Lobby]
-execute if score lobbyAliveCount PlayerCount < goal PlayerCount run function cl:states/stages/3_start_request/tests/check_player_count_fail
-execute if score doException Exception matches 0 if score lobbyAliveCount PlayerCount >= goal PlayerCount run function cl:states/stages/3_start_request/tests/approve
+execute if score lobbyAliveCount PlayerCount < goal PlayerCount run function cl:exception_handling/raise_warning {message:""}
+execute if score lobbyAliveCount PlayerCount < goal PlayerCount run function cl:states/stages/3_start_request/tests/show_player_count_gap

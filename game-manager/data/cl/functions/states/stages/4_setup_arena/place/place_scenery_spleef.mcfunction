@@ -1,1 +1,1 @@
-execute if score scenery Settings matches 1 run function cl:states/stages/4_setup_arena/place/clone/spleef/clone_flatland
+execute if score scenery Settings matches 1 run function cl:states/stages/4_setup_arena/clone/clone_spleef

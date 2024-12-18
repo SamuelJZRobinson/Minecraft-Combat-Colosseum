@@ -21,7 +21,6 @@ scoreboard players set gracePeriod Settings 0
 scoreboard players set roundTime Settings 0
 scoreboard players set scoreGoal Settings 0
 # Gamerules
-scoreboard players set doDarkness Settings 0
 scoreboard players set doDrownDamage Settings 0
 scoreboard players set doFallDamage Settings 0
 scoreboard players set doFriendlyFire Settings 0
@@ -88,6 +87,7 @@ scoreboard players reset * GotoLobby
 # EXCEPTIONS
 scoreboard objectives add Exception dummy {"bold":true,"color":"white","text":"Exception"}
 scoreboard players set doException Exception 0
+scoreboard players set testsFailed Exception 0
 
 # STATUS
 tellraw @a "Scores set"

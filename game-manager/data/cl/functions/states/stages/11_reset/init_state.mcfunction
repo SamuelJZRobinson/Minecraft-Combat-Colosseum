@@ -20,8 +20,8 @@ kill @e[type=!player]
 
 # Clear Arena
 ### Set the proper schedule time !!!
-execute if score cleanArenaTop GameStatus matches 1 run schedule function cl:states/stages/11_reset/clear/top/clear_top1 1t replace
-execute if score cleanArenaBottom GameStatus matches 1 run schedule function cl:states/stages/11_reset/clear/bottom/clear_bottom1 2t replace
+execute if score cleanArenaTop GameStatus matches 1 run schedule function cl:states/stages/11_reset/clear/clear_top1 1t replace
+execute if score cleanArenaBottom GameStatus matches 1 run schedule function cl:states/stages/11_reset/clear/clear_bottom1 2t replace
 
 # # Border Walls
 # # Does this matter?

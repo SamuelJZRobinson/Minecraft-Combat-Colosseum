@@ -1,12 +1,16 @@
-# Gameplay
-fill 263 -29 -355 261 -30 -355 minecraft:jungle_wall_sign[facing=north] destroy
+# Game Settings
+fill 246 -29 -153 248 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
 
-# Arena
-fill 257 -29 -355 255 -30 -355 minecraft:jungle_wall_sign[facing=north] destroy
+# Player Settings
+fill 252 -29 -153 254 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy
+fill 252 -30 -153 253 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
 
-# Game Rules
-fill 251 -29 -355 249 -30 -355 minecraft:jungle_wall_sign[facing=north] destroy
+# Environmental Settings
+fill 258 -29 -153 260 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy
 
-# Introduction
-fill 255 -28 -362 257 -28 -362 minecraft:jungle_wall_sign[facing=south] destroy
-setblock 256 -29 -362 minecraft:jungle_wall_sign[facing=south] destroy
+# Damage Type Settings
+fill 264 -29 -153 266 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy
+
+# Root
+fill 257 -28 -142 255 -28 -142 minecraft:jungle_wall_sign[facing=north] destroy
+setblock 256 -29 -142 minecraft:jungle_wall_sign[facing=north] destroy
