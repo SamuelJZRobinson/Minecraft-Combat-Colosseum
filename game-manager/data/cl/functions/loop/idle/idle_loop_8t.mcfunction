@@ -1,4 +1,4 @@
-# Open Active Function
+# Start
 execute if score started GameStatus matches 1 run function cl:loop/active/active_loop_8t
 
 # Set Default Lobby Team

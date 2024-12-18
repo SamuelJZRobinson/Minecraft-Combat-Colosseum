@@ -4,6 +4,12 @@ function cl:states/stages/2_lobby/set/team_count_in_range
 execute if score minTeamCount Settings < teamCount Settings run scoreboard players operation teamCount Settings = minTeamCount Settings
 
 # Signs
+  # Root
+  function cl:states/stages/2_lobby/merge/merge_highscore
+  function cl:states/stages/2_lobby/merge/merge_credits
+  function cl:states/stages/2_lobby/merge/merge_ideal_settings
+  function cl:states/stages/2_lobby/merge/merge_start
+
   # Gameplay
   function cl:states/stages/2_lobby/merge/merge_gamemode
   function cl:states/stages/2_lobby/merge/merge_combat

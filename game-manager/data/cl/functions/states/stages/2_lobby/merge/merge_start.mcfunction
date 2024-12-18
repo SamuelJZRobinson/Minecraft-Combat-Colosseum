@@ -1,0 +1,1 @@
+data merge block 256 -29 -362 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Start","color":"green","underlined":true}','{"text":""}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:states/stages/2_lobby/set/increment_state"}}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:sounds/menu_click"}}']}}

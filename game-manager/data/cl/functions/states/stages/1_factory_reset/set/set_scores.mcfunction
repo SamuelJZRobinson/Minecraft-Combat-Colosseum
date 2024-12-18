@@ -1,8 +1,8 @@
 scoreboard objectives setdisplay sidebar
 
 # SETTINGS
-# Gameplay
 scoreboard objectives add Settings dummy {"bold":true,"color":"white","text":"Settings"}
+# Gameplay
 scoreboard players set gamemode Settings 1
 scoreboard players set combatClass Settings 1
 scoreboard players set maxCombatClass Settings 0

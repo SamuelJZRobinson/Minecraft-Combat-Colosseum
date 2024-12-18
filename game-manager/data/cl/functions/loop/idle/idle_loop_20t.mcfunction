@@ -1,4 +1,4 @@
-# Open Active Function
+# Start
 execute if score started GameStatus matches 1 run function cl:loop/active/active_loop_20t
 
 # Remember to check if gamemode
