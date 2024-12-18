@@ -36,4 +36,4 @@ scoreboard players enable @a[team=!Lobby] GotoLobby
 
 tellraw @a "state 6"
 
-schedule function cl:states/stages/increment_state 1t replace
+schedule function cl:states/stages/inc_state 1t replace

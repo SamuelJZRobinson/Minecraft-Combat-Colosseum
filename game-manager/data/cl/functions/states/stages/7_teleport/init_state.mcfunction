@@ -12,4 +12,4 @@ execute as @a[team=!Lobby] run function cl:states/player/1_give_gear/init_state
 tellraw @a "state 7"
 
 # Call Next State
-schedule function cl:states/stages/increment_state 1t replace
+schedule function cl:states/stages/inc_state 1t replace

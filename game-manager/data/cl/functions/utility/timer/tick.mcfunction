@@ -12,4 +12,4 @@ execute if score minutes Timer matches 0 unless score seconds Timer matches ..-1
 
 # Loop
 execute unless score seconds Timer matches ..-1 run schedule function cl:utility/timer/tick 1s replace
-execute if score seconds Timer matches ..-1 run schedule function cl:states/stages/increment_state 1t replace
+execute if score seconds Timer matches ..-1 run schedule function cl:states/stages/inc_state 1t replace

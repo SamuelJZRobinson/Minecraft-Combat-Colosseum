@@ -5,4 +5,4 @@ execute if score gracePeriod Settings matches 1.. if score teamCount Settings ma
 
 # Call Next State
 tellraw @a "state 4"
-schedule function cl:states/stages/increment_state 40t replace
+schedule function cl:states/stages/inc_state 40t replace

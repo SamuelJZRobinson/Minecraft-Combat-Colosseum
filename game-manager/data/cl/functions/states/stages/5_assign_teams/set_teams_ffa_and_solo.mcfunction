@@ -5,4 +5,4 @@ execute if score isSolo Settings matches 1 run gamemode spectator @a[team=!FFA]
 execute if score isSolo Settings matches 0 run team join FFA @a[team=Lobby]
 
 # Proceed
-schedule function cl:states/stages/increment_state 1t replace
+schedule function cl:states/stages/inc_state 1t replace

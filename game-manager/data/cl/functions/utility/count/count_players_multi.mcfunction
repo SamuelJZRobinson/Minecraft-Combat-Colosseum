@@ -12,4 +12,4 @@ execute if score isGreenAlive PlayerCount matches 1 run scoreboard players add m
 execute if score isYellowAlive PlayerCount matches 1 run scoreboard players add multiAliveCount PlayerCount 1
 
 # End Game Abruptly
-execute if score multiAliveCount PlayerCount matches ..1 run schedule function cl:states/stages/increment_state 1t replace
+execute if score multiAliveCount PlayerCount matches ..1 run schedule function cl:states/stages/inc_state 1t replace
