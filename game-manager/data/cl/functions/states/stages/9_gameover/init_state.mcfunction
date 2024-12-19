@@ -1,3 +1,6 @@
+# Notes
+  # Place players in the lobby to avoid falling into the void
+
 say @a "gameover"
 
 clear @a
