@@ -1,4 +1,4 @@
-# Change Team Assignment
+# Increment Team Assignment
 scoreboard players add teamSelect PlayerCount 1
 execute if score teamSelect PlayerCount > teamCount Settings run scoreboard players set teamSelect PlayerCount 1
 

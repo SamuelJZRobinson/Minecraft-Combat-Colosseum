@@ -1,26 +1,21 @@
-# Notes
-  # Fire damage is set to false by default to stop players from burning in the lobby
+# PLAYER
+gamerule announceAdvancements false
+gamerule disableElytraMovementCheck false
+gamerule doImmediateRespawn true
+gamerule doInsomnia false
+gamerule doLimitedCrafting true
+gamerule showDeathMessages true
+gamerule keepInventory true
+gamerule spawnRadius 0
 
-# WORLD BORDER
-worldborder set 256
-worldborder damage amount 0.25
-worldborder damage buffer 0
-worldborder center 256.00 -255.00
+# DAMAGE TYPES
+gamerule fireDamage true
 
-# BROKEN BLOCKS
+# BLOCKS
+gamerule doTileDrops true
 gamerule blockExplosionDropDecay true
 gamerule mobExplosionDropDecay true
 gamerule tntExplosionDropDecay true
-
-# COMMANDS
-gamerule commandBlockOutput true
-gamerule logAdminCommands false
-gamerule reducedDebugInfo false
-gamerule sendCommandFeedback true
-
-# DAMAGE TYPES
-gamerule fireDamage false
-gamerule freezeDamage true
 
 # ENVRIONMENT
 gamerule doFireTick true
@@ -45,15 +40,17 @@ gamerule mobGriefing false
 gamerule universalAnger true
 gamerule forgiveDeadPlayers true
 
-# PLAYER
-gamerule announceAdvancements false
-gamerule disableElytraMovementCheck false
-# gamerule doImmediateRespawn true
-gamerule doInsomnia false
-gamerule doLimitedCrafting true
-gamerule showDeathMessages true
-gamerule keepInventory true
-gamerule spawnRadius 0
+# WORLD BORDER
+worldborder set 256
+worldborder damage amount 0.25
+worldborder damage buffer 0
+worldborder center 256.00 -255.00
+
+# COMMANDS
+gamerule commandBlockOutput true
+gamerule logAdminCommands false
+gamerule reducedDebugInfo false
+gamerule sendCommandFeedback true
 
 # STATUS
 tellraw @a "Gamerules set"

@@ -1,3 +1,4 @@
+# Hide objectives
 scoreboard objectives setdisplay sidebar
 
 # SETTINGS
@@ -12,7 +13,7 @@ scoreboard players set teamCount Settings 1
 scoreboard players set minTeamCount Settings 0
 scoreboard players set maxTeamCount Settings 0
 scoreboard players set isSolo Settings 0
-scoreboard players set gracePeriod Settings 0
+scoreboard players set graceSeconds Settings 0
 scoreboard players set roundTime Settings 0
 scoreboard players set scoreGoal Settings 0
 # Players
@@ -84,8 +85,9 @@ scoreboard players reset * RespawnTicks
 scoreboard objectives add PlayerLeave minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}
 
 # TRIGGERS
-scoreboard objectives add GotoLobby trigger
-scoreboard players reset * GotoLobby
+  # Keep trigger quit lowercase for convenience.
+scoreboard players reset * quit
+scoreboard objectives add quit trigger
 
 # EXCEPTIONS
 scoreboard objectives add Exception dummy {"bold":true,"color":"white","text":"Exception"}

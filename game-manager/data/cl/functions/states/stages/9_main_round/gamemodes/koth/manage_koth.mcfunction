@@ -1,2 +1,0 @@
-execute if score teamCount Settings matches 1 run function cl:states/stages/9_main_round/gamemodes/koth/ffa/manage_koth_ffa
-execute if score teamCount Settings matches 2.. run function cl:states/stages/9_main_round/gamemodes/koth/multi/manage_koth_multi
