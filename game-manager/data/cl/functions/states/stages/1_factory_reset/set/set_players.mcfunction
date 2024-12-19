@@ -21,7 +21,7 @@ effect give @a minecraft:fire_resistance 5 20 true
 gamerule fireDamage false
 
 # GOTO LOBBY
-teleport @a 256.00 -30.00 -360.00 0.0 0.0
+teleport @a 256.50 -30.00 -144.50 180 0
 
 # STATUS
 tellraw @a "Players set"

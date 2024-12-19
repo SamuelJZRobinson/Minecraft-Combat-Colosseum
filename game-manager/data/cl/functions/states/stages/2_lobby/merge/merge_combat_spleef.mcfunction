@@ -1,2 +1,0 @@
-execute if score combatClass Settings matches 1 run data merge block 247 -29 -153 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Class","color":"dark_red","underlined":true}','{"text":"Shovel","color":"red"}','{"text":""}','{"text":""}']}}
-execute if score combatClass Settings matches 2 run data merge block 247 -29 -153 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Class","color":"dark_red","underlined":true}','{"text":"Abilities","color":"red"}','{"text":""}','{"text":""}']}}

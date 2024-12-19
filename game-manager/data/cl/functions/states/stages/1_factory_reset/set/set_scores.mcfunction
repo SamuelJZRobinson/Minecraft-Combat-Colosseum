@@ -2,30 +2,33 @@ scoreboard objectives setdisplay sidebar
 
 # SETTINGS
 scoreboard objectives add Settings dummy {"bold":true,"color":"white","text":"Settings"}
-# Gameplay
+# Constants
+scoreboard players set BINARY_OPTION Settings 2
+# Game
 scoreboard players set gamemode Settings 1
-scoreboard players set combatClass Settings 1
-scoreboard players set maxCombatClass Settings 0
+scoreboard players set class Settings 1
+scoreboard players set maxClass Settings 0
 scoreboard players set teamCount Settings 1
 scoreboard players set minTeamCount Settings 0
 scoreboard players set maxTeamCount Settings 0
 scoreboard players set isSolo Settings 0
-scoreboard players set lives Settings 0
-scoreboard players set respawnTime Settings 0
-scoreboard players set showHearts Settings 0
-# Arena
-scoreboard players set scenery Settings 1
-scoreboard players set edgeTrap Settings 0
-scoreboard players set timeOfDay Settings 1
 scoreboard players set gracePeriod Settings 0
 scoreboard players set roundTime Settings 0
 scoreboard players set scoreGoal Settings 0
-# Gamerules
+# Players
+scoreboard players set lives Settings 0
+scoreboard players set respawnTime Settings 0
+scoreboard players set showHearts Settings 0
+scoreboard players set doNaturalRegen Settings 0
+scoreboard players set doUnbreakableTools Settings 0
+# Environmental
+scoreboard players set scenery Settings 1
+scoreboard players set edgeTrap Settings 0
+scoreboard players set timeOfDay Settings 1
+# Damage Types
 scoreboard players set doDrownDamage Settings 0
 scoreboard players set doFallDamage Settings 0
 scoreboard players set doFriendlyFire Settings 0
-scoreboard players set doNaturalRegen Settings 0
-scoreboard players set doUnbreakableTools Settings 0
 
 # GAME STATUS
 scoreboard objectives add GameStatus dummy {"bold":true,"color":"white","text":"Game Status"}
