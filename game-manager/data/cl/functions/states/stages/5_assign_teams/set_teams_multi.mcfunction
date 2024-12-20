@@ -1,4 +1,4 @@
-# Increment Team Assignment
+# Increment Team Select
 scoreboard players add teamSelect PlayerCount 1
 execute if score teamSelect PlayerCount > teamCount Settings run scoreboard players set teamSelect PlayerCount 1
 
@@ -10,4 +10,4 @@ execute if score teamSelect PlayerCount matches 4 run team join Yellow @r[team=L
 
 # Loop
 execute if entity @e[type=player,team=Lobby] run function cl:states/stages/5_assign_teams/set_teams_multi
-execute unless entity @e[type=player,team=Lobby] run function cl:states/stages/inc_state
+execute if entity @e[type=player,team=!Lobby] run schedule function cl:states/stages/inc_state 1t replace

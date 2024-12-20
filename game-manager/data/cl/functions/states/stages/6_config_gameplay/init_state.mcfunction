@@ -1,3 +1,5 @@
+say @a "state 6"
+
 # Notes
   # Team multi friendly fire is always on to let players get familiar with it.
 
@@ -9,8 +11,8 @@
   # Respawn Time
     # Handled by the main round
   # Show Hearts
-  execute if score showHearts Settings matches 0 run scoreboard objectives setdisplay belowName
-  execute if score showHearts Settings matches 1 run scoreboard objectives setdisplay belowName Health
+  execute if score showHearts Settings matches 0 run scoreboard objectives setdisplay below_name
+  execute if score showHearts Settings matches 1 run scoreboard objectives setdisplay below_name Health
   # Natural Regen
   execute if score doNaturalRegen Settings matches 0 run gamerule naturalRegeneration false
   execute if score doNaturalRegen Settings matches 1 run gamerule naturalRegeneration true
@@ -35,11 +37,10 @@ execute if score teamCount Settings matches 1 if score isSolo Settings matches 0
 execute if score teamCount Settings matches 2.. run function cl:states/stages/6_config_gameplay/tp_team_multi
 
 # Enable Quit Game Trigger
-scoreboard players enable @a[team=!Lobby] quit
+# scoreboard players enable @a[team=!Lobby] quit
 
 # Give Initial Gear And Prevent Sound Spam
-execute as @a[team=!Lobby] run function cl:states/player/1_give_gear/init_state
+# execute as @a[team=!Lobby] run function cl:states/player/1_give_gear/init_state
 
 # Proceed
-tellraw @a "state 6"
 schedule function cl:states/stages/inc_state 1t replace
