@@ -1,4 +1,0 @@
-item replace entity @s armor.head with netherite_helmet{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:respiration",lvl:3s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:3s}]} 1
-item replace entity @s armor.chest with netherite_chestplate{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:3s}]} 1
-item replace entity @s armor.legs with netherite_leggings{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:swift_sneak",lvl:3s}]} 1
-item replace entity @s armor.feet with netherite_boots{Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:feather_falling",lvl:4s},{id:"minecraft:depth_strider",lvl:3s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:soul_speed",lvl:1s}]} 1
