@@ -1,2 +1,0 @@
-execute if score respawnTime Settings matches 0 run function cl:states/player/2_respawn_delay/respawn
-execute if score respawnTime Settings matches 1.. run function cl:states/player/2_respawn_delay/tests/check_instant_respawn_fail

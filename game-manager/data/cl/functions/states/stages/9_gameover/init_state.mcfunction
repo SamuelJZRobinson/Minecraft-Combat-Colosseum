@@ -1,9 +1,26 @@
-# Notes
-  # Place players in the lobby to avoid falling into the void
-
-say @a "gameover"
-
-clear @a
-effect give @a instant_health 3 20 true
-
 tellraw @a "state 10"
+
+# Notes
+  # Win conditions are currently based on the last alive except solo.
+  # Winner must be declared first before being a spectator.
+  # Winner is set during rounds.
+
+# Stop All Respawns
+scoreboard players reset * PlayerDeaths
+scoreboard players reset * RespawnSeconds
+
+# Set Values
+scoreboard players set started GameStatus 0
+title @a times 10t 40t 10t
+
+# Spectate Gamemode
+gamemode spectator @a
+
+# Declare Winner
+  # FFA
+  execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/9_gameover/show/show_winner_ffa
+  # Multi
+  execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/stages/9_gameover/show/show_winner_multi
+
+# Proceed
+schedule function cl:states/stages/inc_state 4s replace

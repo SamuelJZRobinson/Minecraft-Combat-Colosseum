@@ -1,8 +1,8 @@
-# Clear
+# Clear Stuff
 clear @s
-effect clear @a
-experience set @s 0 levels
-experience set @s 0 points
+effect clear @s
+
+# Set Team
 team join Lobby @s
 
 # Set Gamemode
@@ -18,9 +18,8 @@ execute if score started GameStatus matches 1 run gamemode spectator @s
   execute if score started GameStatus matches 1 run tellraw @s {"text":"Spectating the arena","bold":true,"color":"gold"}
 
 # Reset Scores
-scoreboard players reset @s GotoLobby
+scoreboard players reset @s quit
 scoreboard players reset @s PlayerLeave
-scoreboard players reset @s PlayerLives
 scoreboard players reset @s PlayerDeaths
 scoreboard players reset @s RespawnSeconds
 scoreboard players reset @s RespawnTicks

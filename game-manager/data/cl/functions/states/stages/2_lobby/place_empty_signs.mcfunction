@@ -1,9 +1,10 @@
 # Game Settings
-fill 246 -29 -153 248 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
+fill 246 -29 -153 248 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy
+fill 246 -30 -153 246 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
 
 # Player Settings
 fill 252 -29 -153 254 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy
-fill 252 -30 -153 253 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
+fill 252 -30 -153 252 -30 -153 minecraft:jungle_wall_sign[facing=south] destroy
 
 # Environmental Settings
 fill 258 -29 -153 260 -29 -153 minecraft:jungle_wall_sign[facing=south] destroy

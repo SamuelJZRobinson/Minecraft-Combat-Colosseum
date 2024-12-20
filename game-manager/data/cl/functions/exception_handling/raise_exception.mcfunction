@@ -1,3 +1,6 @@
+# Notes
+  # Probably depreciate this since it will lead to resetting the game anytime.
+
 # Alert
 $tellraw @a [{"text":"☠ ","color":"red"},{"text":"$(message)","color":"red"}]
 function cl:sounds/error

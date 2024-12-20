@@ -1,9 +1,10 @@
-# INVENTORY
+# Clear Stuff
 clear @a
+effect clear @a
 advancement grant @a from minecraft:recipes/root
 recipe take @a *
 
-# TEAMS
+# Empty Teams
 team empty FFA
 team empty Blue
 team empty Red
@@ -12,16 +13,5 @@ team empty Green
 team empty Mobs
 team join Lobby @a
 
-# HEAL
-effect clear @a
-gamerule naturalRegeneration true
-effect give @a minecraft:instant_health 1 20 true
-effect give @a minecraft:saturation 1 20 true
-effect give @a minecraft:fire_resistance 5 20 true
-gamerule fireDamage false
-
-# GOTO LOBBY
+# Teleport To Lobby
 teleport @a 256.50 -30.00 -144.50 180 0
-
-# STATUS
-tellraw @a "Players set"

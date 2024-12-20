@@ -51,6 +51,3 @@ gamerule commandBlockOutput true
 gamerule logAdminCommands false
 gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
-
-# STATUS
-tellraw @a "Gamerules set"

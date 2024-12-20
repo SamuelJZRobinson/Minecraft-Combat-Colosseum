@@ -15,9 +15,8 @@ scoreboard players set maxTeamCount Settings 0
 scoreboard players set isSolo Settings 0
 scoreboard players set graceSeconds Settings 0
 scoreboard players set roundTime Settings 0
-scoreboard players set scoreGoal Settings 0
+scoreboard players set doRespawn Settings 0
 # Players
-scoreboard players set lives Settings 0
 scoreboard players set respawnTime Settings 0
 scoreboard players set showHearts Settings 0
 scoreboard players set doNaturalRegen Settings 0
@@ -37,8 +36,7 @@ scoreboard players set started GameStatus 0
 scoreboard players set loading GameStatus 0
 scoreboard players set loadingStep GameStatus 0
 scoreboard players set state GameStatus 1
-scoreboard players set cleanArenaTop GameStatus 0
-scoreboard players set cleanArenaBottom GameStatus 0
+scoreboard players set gameWon GameStatus 0
 
 # PLAYER COUNT
 scoreboard objectives add PlayerCount dummy {"bold":true,"color":"white","text":"Player Count"}
@@ -68,21 +66,16 @@ scoreboard objectives add Highscores dummy {"bold":true,"color":"white","text":"
 scoreboard objectives add Health health {"bold":true,"color":"red","text":"❤"}
 scoreboard objectives modify Health rendertype integer
 scoreboard players reset * Health
-# Player Lives
-scoreboard objectives add PlayerLives dummy {"bold":true,"color":"white","text":"Player Lives"}
-scoreboard players reset * PlayerLives
 # Player Deaths
 scoreboard objectives add PlayerDeaths deathCount {"bold":true,"color":"white","text":"Player Deaths"}
 scoreboard players reset * PlayerDeaths
-
-# RESPAWN
+# Respawn
 scoreboard objectives add RespawnSeconds dummy {"bold":true,"color":"white","text":"Respawn Seconds"}
 scoreboard players reset * RespawnSeconds
-scoreboard objectives add RespawnTicks dummy {"bold":true,"color":"white","text":"Respawn Ticks"}
-scoreboard players reset * RespawnTicks
 
-# CONNECTIVITY
+# CONNECTION
 scoreboard objectives add PlayerLeave minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}
+  # Don't reset player scores in PlayerLeave
 
 # TRIGGERS
   # Keep trigger quit lowercase for convenience.
@@ -93,6 +86,3 @@ scoreboard objectives add quit trigger
 scoreboard objectives add Exception dummy {"bold":true,"color":"white","text":"Exception"}
 scoreboard players set doException Exception 0
 scoreboard players set testsFailed Exception 0
-
-# STATUS
-tellraw @a "Scores set"

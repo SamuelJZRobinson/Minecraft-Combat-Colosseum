@@ -13,10 +13,8 @@ function cl:states/stages/2_lobby/merge/merge_class
 function cl:states/stages/2_lobby/merge/merge_team_count
 function cl:states/stages/2_lobby/merge/merge_grace_period
 function cl:states/stages/2_lobby/merge/merge_round_time
-function cl:states/stages/2_lobby/merge/merge_score_goal
 
 # Player Settings
-function cl:states/stages/2_lobby/merge/merge_lives
 function cl:states/stages/2_lobby/merge/merge_respawn_time
 function cl:states/stages/2_lobby/merge/merge_show_hearts
 function cl:states/stages/2_lobby/merge/merge_natural_regeneration 

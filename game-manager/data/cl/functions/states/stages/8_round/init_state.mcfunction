@@ -10,9 +10,6 @@ function cl:states/stages/8_round/clear/clear_walls
 # Enable FFA Friendly Fire
 team modify FFA friendlyFire true
 
-# Set Round Time
-execute if score roundTime Settings matches 1.. run function cl:states/stages/8_round/set/set_round_time
-
 # Status
 title @a actionbar {"text":"Fight!","bold":true,"color":"gold"}
 function cl:sounds/timer_grace_end

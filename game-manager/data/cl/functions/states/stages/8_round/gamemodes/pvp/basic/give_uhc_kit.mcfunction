@@ -28,3 +28,6 @@ item replace entity @s hotbar.5 with cobblestone 64
 item replace entity @s hotbar.6 with cobweb 8
 item replace entity @s hotbar.7 with bow{Enchantments:[{id:"minecraft:power",lvl:1s}]} 1
 item replace entity @s hotbar.8 with crossbow{Enchantments:[{id:"minecraft:piercing",lvl:1s}]} 1
+
+# Hands
+item replace entity @s weapon.offhand with shield{BlockEntityTag:{Base:4,Patterns:[{Color:14,Pattern:"cr"},{Color:14,Pattern:"sc"},{Color:14,Pattern:"cbo"},{Color:4,Pattern:"flo"}]}} 1

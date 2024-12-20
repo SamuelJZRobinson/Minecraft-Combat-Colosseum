@@ -64,6 +64,3 @@ team modify Mobs deathMessageVisibility never
 team modify Mobs friendlyFire false
 team modify Mobs nametagVisibility always
 team modify Mobs seeFriendlyInvisibles true
-
-# STATUS
-tellraw @a "Teams set"
