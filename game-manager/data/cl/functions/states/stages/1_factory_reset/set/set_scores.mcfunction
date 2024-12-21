@@ -66,12 +66,9 @@ scoreboard objectives add Highscores dummy {"bold":true,"color":"white","text":"
 scoreboard objectives add Health health {"bold":true,"color":"red","text":"❤"}
 scoreboard objectives modify Health rendertype integer
 scoreboard players reset * Health
-# Player Deaths
-scoreboard objectives add PlayerDeaths deathCount {"bold":true,"color":"white","text":"Player Deaths"}
-scoreboard players reset * PlayerDeaths
 # Respawn
-scoreboard objectives add RespawnSeconds dummy {"bold":true,"color":"white","text":"Respawn Seconds"}
-scoreboard players reset * RespawnSeconds
+scoreboard objectives add RespawnTicks dummy {"bold":true,"color":"white","text":"Respawn Seconds"}
+scoreboard players reset * RespawnTicks
 
 # CONNECTION
 scoreboard objectives add PlayerLeave minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}

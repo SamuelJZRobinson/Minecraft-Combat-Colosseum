@@ -9,6 +9,6 @@ gamemode spectator @s
 function cl:utility/teleport/tp_centre
 
 # Set Respawn Time
-execute if score respawnTime Settings matches 0 run scoreboard players set @s RespawnSeconds 0
-execute if score respawnTime Settings matches 1 run scoreboard players set @s RespawnSeconds 5
-execute if score respawnTime Settings matches 2 run scoreboard players set @s RespawnSeconds 10
+execute if score respawnTime Settings matches 0 as @s run function cl:states/stages/8_round/respawn/respawn_done
+execute if score respawnTime Settings matches 1 run scoreboard players set @s RespawnTicks 100
+execute if score respawnTime Settings matches 2 run scoreboard players set @s RespawnTicks 200

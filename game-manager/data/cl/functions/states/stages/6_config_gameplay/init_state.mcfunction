@@ -3,6 +3,13 @@ say @a "state 6"
 # Notes
   # Team multi friendly fire is always on to let players get familiar with it.
 
+# Gamemodes Optional Inits
+  # Spawn Koth Hill
+  execute if score gamemode Settings matches 3 run function cl:states/stages/8_round/gamemodes/koth/init
+
+# Clear Player Deaths
+scoreboard players reset * PlayerDeaths
+
 # Settings
   # Player
     # Respawn Time
@@ -15,7 +22,6 @@ say @a "state 6"
     execute if score doNaturalRegen Settings matches 1 run gamerule naturalRegeneration true
     # Unbreaking Tools
       # Handled by the main round
-
   # Damage Types
     # Drown
     execute if score doDrownDamage Settings matches 0 run gamerule drowningDamage false
@@ -41,9 +47,6 @@ effect give @a[team=!Lobby] instant_health 1 20
 
 # Give Gear
 execute as @a[team=!Lobby,gamemode=!spectator] run function cl:states/stages/8_round/respawn/give_gear
-
-# Clear Player Deaths
-scoreboard players reset * PlayerDeaths
 
 # Proceed
 schedule function cl:states/stages/inc_state 1t replace
