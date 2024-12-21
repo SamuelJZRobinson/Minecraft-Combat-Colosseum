@@ -16,6 +16,6 @@ execute as @a[team=!Lobby] run function cl:utility/items/correct_items
   # Draw Hill
   execute if score gamemode Settings matches 3 run function cl:states/stages/8_round/gamemodes/koth/draw_koth
   # Capture Hill Step For 1 Team Contesting
-  execute unless score teamContesting GameKoth matches 0 unless score teamContesting GameKoth = teamOwner GameKoth as @e[type=armor_stand,tag=koth] at @s run function cl:states/stages/8_round/gamemodes/koth/capture_step
+  execute if score contestersCount GameKoth matches 1 unless score teamContesting GameKoth matches 0 unless score teamContesting GameKoth = teamOwner GameKoth as @e[type=armor_stand,tag=koth] at @s run function cl:states/stages/8_round/gamemodes/koth/capture_step
   # Point Step For 1 Team Owner
   execute if score teamOwner GameKoth matches 1.. as @e[type=armor_stand,tag=koth] at @s run function cl:states/stages/8_round/gamemodes/koth/score_step

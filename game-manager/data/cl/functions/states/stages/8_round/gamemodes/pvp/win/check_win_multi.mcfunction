@@ -13,4 +13,6 @@ scoreboard players operation teamsAlive PlayerCount += isYellowAlive PlayerCount
 
 # 1 Team Remains
 execute if score teamsAlive PlayerCount matches 1 run scoreboard players set gameWon GameStatus 1
+
+# Proceed
 execute if score gameWon GameStatus matches 1 run function cl:states/stages/8_round/gamemodes/pvp/win/set_win_multi
