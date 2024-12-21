@@ -1,0 +1,2 @@
+execute as @p[team=FFA,gamemode=!spectator] at @s run title @a subtitle [{"color":"green","selector":"@s"},{"color":"green","text":" won!"}]
+execute as @p[team=FFA,gamemode=!spectator] at @s run scoreboard players add @s Wins 1
