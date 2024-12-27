@@ -3,23 +3,23 @@ scoreboard objectives add PlayerDeaths deathCount {"bold":true,"color":"white","
 scoreboard players reset * PlayerDeaths
 
 # KOTH
-scoreboard objectives add GameKoth dummy {"bold":true,"color":"white","text":"KOTH"}
+scoreboard objectives add Koth dummy {"bold":true,"color":"white","text":"KOTH"}
   # General
-  scoreboard players set contestersCount GameKoth 0
-  scoreboard players set CAPTURE_TICKS_DELAY GameKoth 100
-  scoreboard players set captureTicks GameKoth 0
-  scoreboard players set SCORE_TICKS_DELAY GameKoth 20
-  scoreboard players set scoreTicks GameKoth 0
-  scoreboard players set SCORE_GOAL GameKoth 120
-  scoreboard players set moveTicks GameKoth 0
-  scoreboard players set MOVE_TICKS_DELAY GameKoth 600
+  scoreboard players set contestersCount Koth 0
+  scoreboard players set CAPTURE_TICKS_DELAY Koth 100
+  scoreboard players set captureTicks Koth 0
+  scoreboard players set SCORE_TICKS_DELAY Koth 20
+  scoreboard players set scoreTicks Koth 0
+  scoreboard players set SCORE_GOAL Koth 120
+  scoreboard players set moveTicks Koth 0
+  scoreboard players set MOVE_TICKS_DELAY Koth 600
   # Multi
-  scoreboard players set teamContesting GameKoth 0
-  scoreboard players set teamOwner GameKoth 0
-  scoreboard players set blueScore GameKoth 0
-  scoreboard players set redScore GameKoth 0
-  scoreboard players set greenScore GameKoth 0
-  scoreboard players set yellowScore GameKoth 0
+  scoreboard players set teamContesting Koth 0
+  scoreboard players set teamOwner Koth 0
+  scoreboard players set blueScore Koth 0
+  scoreboard players set redScore Koth 0
+  scoreboard players set greenScore Koth 0
+  scoreboard players set yellowScore Koth 0
   # FFA
   scoreboard objectives add KothFFATick dummy
   scoreboard players reset * KothFFATick

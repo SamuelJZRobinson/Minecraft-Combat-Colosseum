@@ -1,6 +1,6 @@
 # Refresh Scores
 scoreboard players reset * KothFFATick
-scoreboard players set scoreTicks GameKoth 0
+scoreboard players set scoreTicks Koth 0
 
 # Set Hill Owner
 scoreboard players reset * KothFFAOwner

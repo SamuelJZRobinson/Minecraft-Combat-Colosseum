@@ -1,2 +1,2 @@
-execute as @a[team=FFA] if score @s KothFFAScore >= SCORE_GOAL GameKoth run title @a subtitle [{"color":"green","selector":"@s"},{"color":"green","text":" won!"}]
-execute as @a[team=FFA] if score @s KothFFAScore >= SCORE_GOAL GameKoth run scoreboard players add @s Wins 1
+execute as @a[team=FFA] if score @s KothFFAScore >= SCORE_GOAL Koth run title @a subtitle [{"color":"green","selector":"@s"},{"color":"green","text":" won!"}]
+execute as @a[team=FFA] if score @s KothFFAScore >= SCORE_GOAL Koth run scoreboard players add @s Wins 1

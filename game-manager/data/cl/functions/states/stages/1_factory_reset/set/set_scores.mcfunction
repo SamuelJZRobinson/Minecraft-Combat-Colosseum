@@ -57,7 +57,6 @@ scoreboard players set COUNTDOWN_START Timer 3
 
 # HIGHSCORES
 scoreboard objectives add Wins dummy {"bold":true,"color":"white","text":"Wins"}
-scoreboard objectives add Highscores dummy {"bold":true,"color":"white","text":"Highscores"}
 
 # LIFE
 # Health
