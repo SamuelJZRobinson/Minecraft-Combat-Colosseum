@@ -1,5 +1,5 @@
 # Set Allowed Item Placement
-execute as @a[team=!Lobby] run function cl:utility/items/correct_items
+execute as @a[team=!Lobby] run function cl:utility/items/correct_item_placement
 
 # Respawn
   # Init Request

@@ -1,0 +1,49 @@
+{
+  "values":[
+    "minecraft:stone",
+    "minecraft:cobblestone",
+
+    "minecraft:deepslate",
+    "minecraft:chiseled_deepslate",
+
+    "minecraft:polished_diorite",
+
+    "minecraft:bricks",
+
+    "#minecraft:walls",
+
+    "minecraft:diorite_slab",
+    "minecraft:brick_slab",
+
+    "minecraft:diorite_stairs",
+    "minecraft:brick_stairs",
+
+    "minecraft:anvil",
+    "minecraft:blast_furnace",
+    "minecraft:grindstone",
+    "minecraft:brewing_stand",
+    "#minecraft:cauldrons",
+
+    "minecraft:lantern",
+    "minecraft:tripwire_hook",
+    "#minecraft:beds",
+    "#minecraft:flower_pots",
+    "#minecraft:flowers",
+    "#minecraft:wool",
+    "#minecraft:wool_carpets",
+    "minecraft:amethyst_block",
+    "minecraft:amethyst_cluster",
+
+    "minecraft:cobweb",
+
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/hoe",
+    "#minecraft:mineable/shovel",
+    
+    "minecraft:magma_block",
+    "minecraft:reinforced_deepslate",
+    "minecraft:bedrock",
+    "minecraft:lava",
+    "minecraft:water"
+  ]
+}

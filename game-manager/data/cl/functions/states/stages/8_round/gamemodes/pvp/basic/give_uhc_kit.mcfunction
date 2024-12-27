@@ -8,7 +8,7 @@ item replace entity @s armor.feet with diamond_boots{Enchantments:[{id:"minecraf
   # Row 1
   item replace entity @s inventory.0 with arrow 16
   item replace entity @s inventory.3 with water_bucket 1
-  item replace entity @s inventory.5 with diamond_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]} 1
+  item replace entity @s inventory.5 with diamond_pickaxe{CanDestroy:["#cl:block_placement"],Enchantments:[{id:"minecraft:efficiency",lvl:3s},{id:"minecraft:unbreaking",lvl:3s}]} 1
   # Row 2
   item replace entity @s inventory.12 with water_bucket 1
   # Row 3
@@ -19,8 +19,8 @@ item replace entity @s armor.feet with diamond_boots{Enchantments:[{id:"minecraf
   item replace entity @s inventory.25 with oak_planks 64
 
 # Hotbar
-item replace entity @s hotbar.0 with diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:4s}]} 1
-item replace entity @s hotbar.1 with diamond_axe{Enchantments:[{id:"minecraft:sharpness",lvl:1s}]} 1
+item replace entity @s hotbar.0 with diamond_sword{CanDestroy:["#cl:block_placement"],Enchantments:[{id:"minecraft:sharpness",lvl:4s}]} 1
+item replace entity @s hotbar.1 with diamond_axe{CanDestroy:["#cl:block_placement"],Enchantments:[{id:"minecraft:sharpness",lvl:1s}]} 1
 item replace entity @s hotbar.2 with golden_apple 13
 item replace entity @s hotbar.3 with water_bucket 1
 item replace entity @s hotbar.4 with lava_bucket 1

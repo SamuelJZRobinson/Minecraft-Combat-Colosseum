@@ -7,13 +7,10 @@
       "mainhand": {
         "items": [
           "minecraft:cobblestone",
-          "minecraft:obsidian",
-          "minecraft:jungle_planks",
-          "minecraft:jungle_trapdoor",
-          "minecraft:ladder",
+          "minecraft:oak_planks",
           "minecraft:cobweb",
-          "minecraft:lava_bucket",
-          "minecraft:water_bucket"
+          "minecraft:water_bucket",
+          "minecraft:lava_bucket"
         ]
       }
     }
