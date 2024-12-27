@@ -14,4 +14,4 @@ team empty Mobs
 team join Lobby @a
 
 # Teleport To Lobby
-teleport @a 256.50 -30.00 -144.50 180 0
+execute as @a run function cl:utility/teleport/tp_lobby
