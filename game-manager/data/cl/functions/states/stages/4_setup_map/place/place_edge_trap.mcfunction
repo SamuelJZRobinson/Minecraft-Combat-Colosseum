@@ -5,4 +5,4 @@ execute if score edgeTrap Settings matches 1 run fill 202 -31 -290 308 -31 -221 
 # Soul Sand
   # Default material
 # Any Potion Effect
-execute if score edgeTrap Settings matches 3.. run fill 202 -31 -290 308 -31 -221 minecraft:crying_obsidian replace minecraft:soul_sand
+execute if score edgeTrap Settings matches 3.. run fill 202 -31 -290 308 -31 -221 minecraft:gilded_blackstone replace minecraft:soul_sand

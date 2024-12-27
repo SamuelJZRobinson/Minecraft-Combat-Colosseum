@@ -6,6 +6,7 @@ say @a "state 6"
 # Gamemodes Optional Inits
   # Spawn Koth Hill
   execute if score gamemode Settings matches 3 run function cl:states/stages/8_round/gamemodes/koth/init
+  execute if score gamemode Settings matches 4 run function cl:states/stages/8_round/gamemodes/koth/init
 
 # Clear Player Deaths
 scoreboard players reset * PlayerDeaths

@@ -11,6 +11,8 @@ scoreboard objectives add GameKoth dummy {"bold":true,"color":"white","text":"KO
   scoreboard players set SCORE_TICKS_DELAY GameKoth 20
   scoreboard players set scoreTicks GameKoth 0
   scoreboard players set SCORE_GOAL GameKoth 120
+  scoreboard players set moveTicks GameKoth 0
+  scoreboard players set MOVE_TICKS_DELAY GameKoth 600
   # Multi
   scoreboard players set teamContesting GameKoth 0
   scoreboard players set teamOwner GameKoth 0
