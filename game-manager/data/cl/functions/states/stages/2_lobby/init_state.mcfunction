@@ -1,5 +1,5 @@
 # Notes
-  # doTileDrops is false to prevent broken sign items and is enabled in 3_start_request/tests/approve
+  # doTileDrops is false to prevent broken sign items and is enabled after setting up the map
 
 # Place Signs
 gamerule doTileDrops false
