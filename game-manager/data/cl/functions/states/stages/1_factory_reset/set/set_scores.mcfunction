@@ -33,8 +33,6 @@ scoreboard players set doFriendlyFire Settings 0
 # GAME STATUS
 scoreboard objectives add GameStatus dummy {"bold":true,"color":"white","text":"Game Status"}
 scoreboard players set started GameStatus 0
-scoreboard players set loading GameStatus 0
-scoreboard players set loadingStep GameStatus 0
 scoreboard players set state GameStatus 1
 scoreboard players set gameWon GameStatus 0
 
