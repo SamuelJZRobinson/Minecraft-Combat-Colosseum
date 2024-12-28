@@ -6,7 +6,7 @@ effect clear @s
 gamemode spectator @s
 
 # Teleport
-function cl:utility/teleport/tp_centre
+function cl:utility/teleports/tp_centre
 
 # Set Respawn Time
 execute if score respawnTime Settings matches 0 as @s run function cl:states/stages/8_round/respawn/respawn_done

@@ -14,10 +14,10 @@ title @s times 0t 20t 5t
 
 # Teleport
   # Lobby
-  execute if score started GameStatus matches 0 run function cl:utility/teleport/tp_lobby
+  execute if score started GameStatus matches 0 run function cl:utility/teleports/tp_lobby
   execute if score started GameStatus matches 0 run title @s actionbar {"text":"Teleported to the lobby","bold":true,"color":"gold"}
   # Centre
-  execute if score started GameStatus matches 1 run function cl:utility/teleport/tp_centre
+  execute if score started GameStatus matches 1 run function cl:utility/teleports/tp_centre
   execute if score started GameStatus matches 1 run title @s actionbar {"text":"Teleported to the arena","bold":true,"color":"gold"}
 
 # Reset Scores

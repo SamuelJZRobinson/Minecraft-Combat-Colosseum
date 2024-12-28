@@ -8,4 +8,4 @@ recipe take @a *
 team join Lobby @a
 
 # Teleport To Lobby
-execute as @a run function cl:utility/teleport/tp_lobby
+execute as @a run function cl:utility/teleports/tp_lobby
