@@ -4,7 +4,9 @@ execute if score started GameStatus matches 1 if score state GameStatus matches 
 # Players
   # Assign No Team To Lobby
   execute if score started GameStatus matches 0 run team join Lobby @a[team=!Lobby]
-  # Player Rejoins
+  # Lobby Deaths
+  execute if score started GameStatus matches 0 as @a[scores={PlayerDeaths=1..}] run function cl:loops/player_rejoins
+  # Rejoins
   execute as @a[scores={PlayerLeave=1..}] run function cl:loops/player_rejoins
 
 # Loop

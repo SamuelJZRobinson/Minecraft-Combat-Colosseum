@@ -12,7 +12,7 @@ gamerule spawnRadius 0
 gamerule fireDamage true
 
 # BLOCKS
-gamerule doTileDrops true
+gamerule doTileDrops false
 gamerule blockExplosionDropDecay true
 gamerule mobExplosionDropDecay true
 gamerule tntExplosionDropDecay true

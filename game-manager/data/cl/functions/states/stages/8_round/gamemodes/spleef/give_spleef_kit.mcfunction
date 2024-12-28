@@ -1,0 +1,1 @@
+item replace entity @s hotbar.0 with iron_shovel{CanDestroy:["minecraft:snow_block"],Unbreakable:1b} 1

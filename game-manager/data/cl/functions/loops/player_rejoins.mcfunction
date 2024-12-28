@@ -9,9 +9,6 @@ team join Lobby @s
 execute if score started GameStatus matches 0 run gamemode adventure @s
 execute if score started GameStatus matches 1 run gamemode spectator @s
 
-# Title Times
-title @s times 0t 20t 5t
-
 # Teleport
   # Lobby
   execute if score started GameStatus matches 0 run function cl:utility/teleports/tp_lobby

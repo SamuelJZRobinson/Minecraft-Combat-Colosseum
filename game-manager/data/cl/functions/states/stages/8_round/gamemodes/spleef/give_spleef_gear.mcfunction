@@ -1,1 +1,0 @@
-execute if score combatClass Settings matches 1 as @a[team=!Lobby] run function cl:play/events/class/minigames/spleef

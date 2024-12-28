@@ -1,1 +1,0 @@
-execute as @a at @s if block ~ ~-1 ~ minecraft:stone unless entity @e[type=minecraft:area_effect_cloud,distance=..0.75] run function cl:play/gamemodes/place_spleef_floor_breaker
