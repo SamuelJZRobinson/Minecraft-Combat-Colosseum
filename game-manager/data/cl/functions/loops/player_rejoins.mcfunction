@@ -23,4 +23,4 @@ scoreboard players reset @s PlayerDeaths
 scoreboard players reset @s RespawnTicks
 
 # Reset Triggers
-scoreboard players reset @s quit
+scoreboard players reset @s lobby

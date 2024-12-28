@@ -24,4 +24,3 @@
   execute if score gameWon GameStatus matches 1 run schedule function cl:states/stages/inc_state 1t replace
 
 ### no players remain
-### Round time depleted

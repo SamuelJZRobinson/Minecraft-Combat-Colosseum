@@ -8,6 +8,8 @@ execute if score started GameStatus matches 1 if score state GameStatus matches 
   execute if score started GameStatus matches 0 as @a[scores={PlayerDeaths=1..}] run function cl:loops/player_rejoins
   # Rejoins
   execute as @a[scores={PlayerLeave=1..}] run function cl:loops/player_rejoins
+  # Quit
+  execute as @a[scores={lobby=1..}] run function cl:loops/player_rejoins
 
 # Loop
 schedule function cl:loops/loop_10t 10t replace

@@ -9,6 +9,9 @@ tellraw @a "state 9"
 scoreboard players reset * PlayerDeaths
 scoreboard players reset * RespawnTicks
 
+# Stop Players Quitting
+scoreboard players reset * lobby
+
 # Set Values
 scoreboard players set started GameStatus 0
 title @a times 10t 40t 10t

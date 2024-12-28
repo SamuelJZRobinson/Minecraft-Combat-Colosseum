@@ -43,7 +43,7 @@ execute if score doTileDrops Settings matches 0 run gamerule doTileDrops false
   # Heal
   effect give @a[team=!Lobby] instant_health 1 20
   # Enable Quit Game Trigger
-  # scoreboard players enable @a[team=!Lobby] quit
+  scoreboard players enable @a[team=!Lobby] lobby
   # Give Gear
   execute as @a[team=!Lobby,gamemode=!spectator] run function cl:states/stages/8_round/respawn/give_gear
 
