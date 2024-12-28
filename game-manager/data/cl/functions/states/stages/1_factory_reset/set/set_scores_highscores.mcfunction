@@ -1,0 +1,1 @@
+scoreboard objectives add Wins dummy {"bold":true,"color":"white","text":"Wins"}

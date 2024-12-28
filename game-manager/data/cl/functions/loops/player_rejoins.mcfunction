@@ -24,7 +24,7 @@ title @s times 0t 20t 5t
 scoreboard players reset @s PlayerLeave
 scoreboard players reset @s PlayerDeaths
 scoreboard players reset @s RespawnTicks
-scoreboard players reset @s Health
+scoreboard players reset @s PlayerHealth
 
 # Reset Triggers
 scoreboard players reset @s quit

@@ -4,13 +4,7 @@ effect clear @a
 advancement grant @a from minecraft:recipes/root
 recipe take @a *
 
-# Empty Teams
-team empty FFA
-team empty Blue
-team empty Red
-team empty Yellow
-team empty Green
-team empty Mobs
+# Team Lobby
 team join Lobby @a
 
 # Teleport To Lobby
