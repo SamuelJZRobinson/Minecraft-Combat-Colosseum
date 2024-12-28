@@ -1,4 +1,4 @@
-say grace period
+tellraw @a "state 7"
 
 # Notes
   # Stage increment is handled by CountdownTimer.
@@ -7,7 +7,5 @@ say grace period
 # Declare Started
 scoreboard players set started GameStatus 1
 
-# Request Grace
-tellraw @a "state 7"
-execute if score graceSeconds Settings matches 1.. run function cl:states/stages/7_grace_period/setup_grace_period
-execute if score graceSeconds Settings matches 0 run schedule function cl:states/stages/inc_state 1t replace
+# Request Grace (Mandatory)
+function cl:states/stages/7_grace_period/setup_grace_period

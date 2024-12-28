@@ -1,1 +1,0 @@
-playsound minecraft:entity.wolf.whine hostile @a ~ ~ ~ 1 1 1
