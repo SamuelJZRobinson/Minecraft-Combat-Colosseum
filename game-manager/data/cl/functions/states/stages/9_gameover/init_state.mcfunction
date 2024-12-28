@@ -19,8 +19,8 @@ gamemode spectator @a
 # Declare Winner
   # FFA
   execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/9_gameover/show/show_winner_ffa
-  # Multi
-  execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/stages/9_gameover/show/show_winner_multi
+  # Teams
+  execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/stages/9_gameover/show/show_winner_teams
 
 # Proceed
 schedule function cl:states/stages/inc_state 4s replace

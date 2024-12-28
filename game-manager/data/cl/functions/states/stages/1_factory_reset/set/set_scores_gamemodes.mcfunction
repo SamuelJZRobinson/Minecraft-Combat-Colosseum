@@ -2,13 +2,13 @@
   # FFA
   scoreboard objectives add ScoresFFA dummy {"bold":true,"color":"white","text":"Scores"}
   scoreboard players reset * ScoresFFA
-  # Multi
-  scoreboard objectives add ScoresMulti dummy {"bold":true,"color":"white","text":"Scores"}
+  # Teams
+  scoreboard objectives add ScoresTeams dummy {"bold":true,"color":"white","text":"Scores"}
     # Team scores are added in config_gameplay as needed
-    scoreboard players reset blueScore ScoresMulti
-    scoreboard players reset redScore ScoresMulti
-    scoreboard players reset greenScore ScoresMulti
-    scoreboard players reset yellowScore ScoresMulti
+    scoreboard players reset blueScore ScoresTeams
+    scoreboard players reset redScore ScoresTeams
+    scoreboard players reset greenScore ScoresTeams
+    scoreboard players reset yellowScore ScoresTeams
 
 # Automatic Trackers
 scoreboard objectives add PlayerDeaths deathCount {"bold":true,"color":"white","text":"Player Deaths"}
@@ -19,8 +19,8 @@ scoreboard players reset * PlayerKills
 # Player Count
   # FFA
   scoreboard objectives add PlayerCountFFA dummy {"bold":true,"color":"white","text":"Player Count"}
-  # Multi
-  scoreboard objectives add PlayerCountMulti dummy {"bold":true,"color":"white","text":"Player Count"}
+  # Teams
+  scoreboard objectives add PlayerCountTeams dummy {"bold":true,"color":"white","text":"Player Count"}
 
 # Gamemodes
   # Normal PVP And Special PVP
@@ -35,7 +35,7 @@ scoreboard players reset * PlayerKills
     scoreboard players set SCORE_GOAL Koth 120
     scoreboard players set moveTicks Koth 0
     scoreboard players set MOVE_TICKS_DELAY Koth 600
-    # Multi
+    # Teams
     scoreboard players set teamContesting Koth 0
     scoreboard players set teamOwner Koth 0
     # FFA

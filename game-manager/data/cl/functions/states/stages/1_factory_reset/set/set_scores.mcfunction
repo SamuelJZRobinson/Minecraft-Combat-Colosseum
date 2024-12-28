@@ -47,7 +47,7 @@ scoreboard players set isRedAlive PlayerCount 0
 scoreboard players set isBlueAlive PlayerCount 0
 scoreboard players set isGreenAlive PlayerCount 0
 scoreboard players set isYellowAlive PlayerCount 0
-scoreboard players set multiAliveCount PlayerCount 0
+scoreboard players set TeamsAliveCount PlayerCount 0
 
 # TIMER
 scoreboard objectives add Timer dummy {"bold":true,"color":"white","text":"Timer"}

@@ -1,15 +1,12 @@
 say @a "state 6"
 
 # Notes
-  # Team multi friendly fire is always on to let players get familiar with it.
+  # Team Teams friendly fire is always on to let players get familiar with it.
 
 # Gamemodes Optional Inits
   # Spawn Koth Hill
   execute if score gamemode Settings matches 3 run function cl:states/stages/8_round/gamemodes/koth/init
   execute if score gamemode Settings matches 4 run function cl:states/stages/8_round/gamemodes/koth/init
-
-# Clear Player Deaths
-scoreboard players reset * PlayerDeaths
 
 # Settings
   # Player
@@ -32,22 +29,28 @@ scoreboard players reset * PlayerDeaths
     execute if score doFallDamage Settings matches 1 run gamerule fallDamage true
     # Firendly Fire
       # FFA friendly fire is enabled during the main round.
-    execute if score doFriendlyFire Settings matches 0 run function cl:states/stages/6_config_gameplay/set_teams_multi_friendly_fire_false
-    execute if score doFriendlyFire Settings matches 1 run function cl:states/stages/6_config_gameplay/set_teams_multi_friendly_fire_true
+    execute if score doFriendlyFire Settings matches 0 run function cl:states/stages/6_config_gameplay/set_teams_teams_friendly_fire_false
+    execute if score doFriendlyFire Settings matches 1 run function cl:states/stages/6_config_gameplay/set_teams_teams_friendly_fire_true
 
-# Teleport Players
-execute if score teamCount Settings matches 1 if score isSolo Settings matches 1 run function cl:states/stages/6_config_gameplay/tp_team_solo
-execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/tp_team_ffa
-execute if score teamCount Settings matches 2.. run function cl:states/stages/6_config_gameplay/tp_team_multi
+# Players
+  # Clear Deaths
+  scoreboard players reset * PlayerDeaths
+  # Teleport
+  execute if score teamCount Settings matches 1 if score isSolo Settings matches 1 run function cl:states/stages/6_config_gameplay/tp_team_solo
+  execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/tp_team_ffa
+  execute if score teamCount Settings matches 2.. run function cl:states/stages/6_config_gameplay/tp_team_teams
+  # Heal
+  effect give @a[team=!Lobby] instant_health 1 20
+  # Enable Quit Game Trigger
+  # scoreboard players enable @a[team=!Lobby] quit
+  # Give Gear
+  execute as @a[team=!Lobby,gamemode=!spectator] run function cl:states/stages/8_round/respawn/give_gear
 
-# Fully Heal Everyone
-effect give @a[team=!Lobby] instant_health 1 20
-
-# Enable Quit Game Trigger
-# scoreboard players enable @a[team=!Lobby] quit
-
-# Give Gear
-execute as @a[team=!Lobby,gamemode=!spectator] run function cl:states/stages/8_round/respawn/give_gear
+# Adjust Scoreboards
+  # FFA
+  execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/set_scoreboard_ffa
+  # Teams
+  execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/set_scoreboard_teams
 
 # Proceed
 schedule function cl:states/stages/inc_state 1t replace

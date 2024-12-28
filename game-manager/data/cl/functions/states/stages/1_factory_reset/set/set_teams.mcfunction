@@ -19,7 +19,7 @@ team modify FFA friendlyFire false
 team modify FFA nametagVisibility always
 team modify FFA seeFriendlyInvisibles false
 
-# MULTI
+# Teams
 # Blue
 team add Blue "Blue"
 team modify Blue collisionRule pushOtherTeams
