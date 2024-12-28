@@ -1,3 +1,3 @@
-scoreboard players operation gap PlayerCount = goal PlayerCount
-scoreboard players operation gap PlayerCount -= lobbyAliveCount PlayerCount
-tellraw @a ["",{"text":"Need ","color":"gold"},{"score":{"name":"gap","objective":"PlayerCount"},"color":"gold"},{"text":" more players","color":"gold"}]
+scoreboard players operation playersMissing AssignTeams = playersRequired AssignTeams
+scoreboard players operation playersMissing AssignTeams -= lobbyAliveCount AssignTeams
+tellraw @a ["",{"text":"Need ","color":"gold"},{"score":{"name":"playersMissing","objective":"AssignTeams"},"color":"gold"},{"text":" more players","color":"gold"}]

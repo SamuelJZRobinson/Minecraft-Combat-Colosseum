@@ -1,0 +1,1 @@
+execute store result score ffaAliveCount PlayerCountFFA if entity @a[team=FFA,gamemode=!spectator]

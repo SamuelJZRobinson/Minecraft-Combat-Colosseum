@@ -24,21 +24,21 @@ scoreboard players set gameWon GameStatus 0
 # Player Count
   # FFA
   scoreboard objectives add PlayerCountFFA dummy {"bold":true,"color":"white","text":"Player Count"}
+  scoreboard players set ffaAliveCount PlayerCountFFA 0
   # Teams
   scoreboard objectives add PlayerCountTeams dummy {"bold":true,"color":"white","text":"Player Count"}
+  scoreboard players set teamsAliveCount PlayerCountTeams 0
+  scoreboard players set blueAliveCount AssignTeams 0
+  scoreboard players set redAliveCount PlayerCountTeams 0
+  scoreboard players set greenAliveCount PlayerCountTeams 0
+  scoreboard players set yellowAliveCount PlayerCountTeams 0
 
-# Player Count ???
-scoreboard objectives add PlayerCount dummy {"bold":true,"color":"white","text":"Player Count"}
-scoreboard players set teamSelect PlayerCount 1
-scoreboard players set goal PlayerCount 0
-scoreboard players set gap PlayerCount 0
-scoreboard players set lobbyAliveCount PlayerCount 0
-scoreboard players set ffaAliveCount PlayerCount 0
-scoreboard players set isRedAlive PlayerCount 0
-scoreboard players set isBlueAlive PlayerCount 0
-scoreboard players set isGreenAlive PlayerCount 0
-scoreboard players set isYellowAlive PlayerCount 0
-scoreboard players set TeamsAliveCount PlayerCount 0
+# Assign Teams
+scoreboard objectives add AssignTeams dummy {"bold":true,"color":"white","text":"Assign Teams"}
+scoreboard players set teamSelect AssignTeams 1
+scoreboard players set playersRequired AssignTeams 0
+scoreboard players set playersMissing AssignTeams 0
+scoreboard players set lobbyAliveCount AssignTeams 0
 
 # Timers
   # Countdown Timer
