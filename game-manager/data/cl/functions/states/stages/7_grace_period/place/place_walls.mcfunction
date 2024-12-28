@@ -1,4 +1,5 @@
 # Notes
+  # Don't place walls for FFA or SOLO.
   # The odd arena width means the walls must be offset by 1 block in a windmill shape.
 
 # Place Walls
