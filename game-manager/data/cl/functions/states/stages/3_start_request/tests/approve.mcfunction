@@ -1,4 +1,4 @@
-# Set Scores
+# Reset Scores
 scoreboard players set lobbyAliveCount AssignTeams 0
 
 # Place Blank Signs

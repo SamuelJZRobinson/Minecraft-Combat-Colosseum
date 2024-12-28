@@ -1,4 +1,3 @@
-say @a round
 tellraw @a "state 9"
 
 # Notes

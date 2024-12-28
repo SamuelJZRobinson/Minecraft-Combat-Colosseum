@@ -21,6 +21,13 @@ scoreboard players set gameWon GameStatus 0
   # Leave Game (Don't Reset)
   scoreboard objectives add PlayerLeave minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}
 
+# Assign Teams
+scoreboard objectives add AssignTeams dummy {"bold":true,"color":"white","text":"Assign Teams"}
+scoreboard players set teamSelect AssignTeams 1
+scoreboard players set playersRequired AssignTeams 0
+scoreboard players set playersMissing AssignTeams 0
+scoreboard players set lobbyAliveCount AssignTeams 0
+
 # Player Count
   # FFA
   scoreboard objectives add PlayerCountFFA dummy {"bold":true,"color":"white","text":"Player Count"}
@@ -33,24 +40,6 @@ scoreboard players set gameWon GameStatus 0
   scoreboard players set greenAliveCount PlayerCountTeams 0
   scoreboard players set yellowAliveCount PlayerCountTeams 0
 
-# Assign Teams
-scoreboard objectives add AssignTeams dummy {"bold":true,"color":"white","text":"Assign Teams"}
-scoreboard players set teamSelect AssignTeams 1
-scoreboard players set playersRequired AssignTeams 0
-scoreboard players set playersMissing AssignTeams 0
-scoreboard players set lobbyAliveCount AssignTeams 0
-
-# Timers
-  # Countdown Timer
-  scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
-  scoreboard players set minutes CountdownTimer 0
-  scoreboard players set seconds CountdownTimer 0
-  scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
-  # Countup Timer
-  scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
-  scoreboard players set minutes CountupTimer 0
-  scoreboard players set seconds CountupTimer 0
-
 # Scores
   # FFA
   scoreboard objectives add ScoresFFA dummy {"bold":true,"color":"white","text":"Scores"}
@@ -62,6 +51,17 @@ scoreboard players set lobbyAliveCount AssignTeams 0
     scoreboard players reset redScore ScoresTeams
     scoreboard players reset greenScore ScoresTeams
     scoreboard players reset yellowScore ScoresTeams
+
+# Timers
+  # Countdown Timer
+  scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
+  scoreboard players set minutes CountdownTimer 0
+  scoreboard players set seconds CountdownTimer 0
+  scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
+  # Countup Timer
+  scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
+  scoreboard players set minutes CountupTimer 0
+  scoreboard players set seconds CountupTimer 0
 
 # Gamemode Specific
   # Normal PVP And Special PVP
