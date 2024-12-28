@@ -1,5 +1,3 @@
-scoreboard objectives setdisplay sidebar CountdownTimer
-
 # Decrement Time
   # Second
   execute if score seconds CountdownTimer matches 0.. run scoreboard players remove seconds CountdownTimer 1
