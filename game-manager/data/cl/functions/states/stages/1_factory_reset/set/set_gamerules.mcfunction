@@ -41,7 +41,8 @@ gamerule universalAnger true
 gamerule forgiveDeadPlayers true
 
 # WORLD BORDER
-worldborder set 400
+worldborder set 502
+
 worldborder damage amount 0.25
 worldborder damage buffer 0
 worldborder center 256.00 -255.00

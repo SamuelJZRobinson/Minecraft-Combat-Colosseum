@@ -16,9 +16,6 @@ execute if score doTileDrops Settings matches 0 run gamerule doTileDrops false
   # Player
     # Respawn Time
       # Handled by the main round
-    # Show Hearts
-    execute if score showHearts Settings matches 0 run scoreboard objectives setdisplay below_name
-    execute if score showHearts Settings matches 1 run scoreboard objectives setdisplay below_name PlayerHealth
     # Natural Regen
     execute if score doNaturalRegen Settings matches 0 run gamerule naturalRegeneration false
     execute if score doNaturalRegen Settings matches 1 run gamerule naturalRegeneration true

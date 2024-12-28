@@ -5,10 +5,6 @@ scoreboard players set state GameStatus 1
 scoreboard players set gameWon GameStatus 0
 
 # Players
-  # Health
-  scoreboard objectives add PlayerHealth health {"bold":true,"color":"red","text":"❤"}
-  scoreboard objectives modify PlayerHealth rendertype integer
-  scoreboard players reset * PlayerHealth
   # Kills
   scoreboard objectives add PlayerKills minecraft.custom:minecraft.player_kills {"bold":true,"color":"white","text":"Player Kills"}
   scoreboard players reset * PlayerKills
@@ -35,10 +31,7 @@ scoreboard players set lobbyAliveCount AssignTeams 0
   # Teams
   scoreboard objectives add PlayerCountTeams dummy {"bold":true,"color":"white","text":"Player Count"}
   scoreboard players set teamsAliveCount PlayerCountTeams 0
-  scoreboard players set blueAliveCount AssignTeams 0
-  scoreboard players set redAliveCount PlayerCountTeams 0
-  scoreboard players set greenAliveCount PlayerCountTeams 0
-  scoreboard players set yellowAliveCount PlayerCountTeams 0
+  # Team alive count is set by config_gameplay
 
 # Scores
   # FFA

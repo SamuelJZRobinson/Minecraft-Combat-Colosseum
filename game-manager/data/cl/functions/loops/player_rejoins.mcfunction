@@ -21,7 +21,6 @@ execute if score started GameStatus matches 1 run gamemode spectator @s
 scoreboard players reset @s PlayerLeave
 scoreboard players reset @s PlayerDeaths
 scoreboard players reset @s RespawnTicks
-scoreboard players reset @s PlayerHealth
 
 # Reset Triggers
 scoreboard players reset @s quit

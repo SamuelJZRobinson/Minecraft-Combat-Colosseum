@@ -40,7 +40,7 @@ team modify FFA seeFriendlyInvisibles false
   team modify Blue color blue
   team modify Blue deathMessageVisibility always
   team modify Blue friendlyFire false
-  team modify Blue nametagVisibility always
+  team modify Blue nametagVisibility hideForOtherTeams
   team modify Blue seeFriendlyInvisibles true
   # Red
   team empty Red
@@ -49,7 +49,7 @@ team modify FFA seeFriendlyInvisibles false
   team modify Red color red
   team modify Red deathMessageVisibility always
   team modify Red friendlyFire false
-  team modify Red nametagVisibility always
+  team modify Red nametagVisibility hideForOtherTeams
   team modify Red seeFriendlyInvisibles true
   # Green
   team empty Green
@@ -58,7 +58,7 @@ team modify FFA seeFriendlyInvisibles false
   team modify Green color green
   team modify Green deathMessageVisibility always
   team modify Green friendlyFire false
-  team modify Green nametagVisibility always
+  team modify Green nametagVisibility hideForOtherTeams
   team modify Green seeFriendlyInvisibles true
   # Yellow
   team empty Yellow
@@ -67,7 +67,7 @@ team modify FFA seeFriendlyInvisibles false
   team modify Yellow color yellow
   team modify Yellow deathMessageVisibility always
   team modify Yellow friendlyFire false
-  team modify Yellow nametagVisibility always
+  team modify Yellow nametagVisibility hideForOtherTeams
   team modify Yellow seeFriendlyInvisibles true
 
 # Mobs

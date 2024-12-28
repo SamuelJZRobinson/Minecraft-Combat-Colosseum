@@ -1,3 +1,7 @@
+# Reset Scores
+scoreboard players reset greenAliveCount PlayerCountTeams
+scoreboard players reset yellowAliveCount PlayerCountTeams
+
 # Show Objective
 scoreboard objectives setdisplay sidebar PlayerCountTeams
 
