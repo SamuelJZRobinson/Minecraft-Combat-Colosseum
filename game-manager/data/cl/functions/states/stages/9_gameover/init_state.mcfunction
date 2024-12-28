@@ -1,4 +1,4 @@
-tellraw @a "state 10"
+tellraw @a "state 9"
 
 # Notes
   # Win conditions are currently based on the last alive except solo.

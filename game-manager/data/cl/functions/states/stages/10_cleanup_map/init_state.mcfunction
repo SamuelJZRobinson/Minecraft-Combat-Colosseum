@@ -1,3 +1,5 @@
+tellraw @a "state 10"
+
 # Clear Non-Player Entities
 kill @e[type=!player]
 
