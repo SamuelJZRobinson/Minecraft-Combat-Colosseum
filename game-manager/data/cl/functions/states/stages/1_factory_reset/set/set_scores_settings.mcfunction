@@ -15,7 +15,6 @@ scoreboard players set roundTime Settings 0
 scoreboard players set doRespawn Settings 0
 # Players
 scoreboard players set respawnTime Settings 0
-scoreboard players set showHearts Settings 0
 scoreboard players set doNaturalRegen Settings 0
 scoreboard players set doUnbreakableTools Settings 0
 # Environmental
