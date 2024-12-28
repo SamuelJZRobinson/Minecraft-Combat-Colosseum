@@ -7,7 +7,7 @@ tellraw @a "state 9"
 
 # Stop All Respawns
 scoreboard players reset * PlayerDeaths
-scoreboard players reset * RespawnSeconds
+scoreboard players reset * RespawnTicks
 
 # Set Values
 scoreboard players set started GameStatus 0
