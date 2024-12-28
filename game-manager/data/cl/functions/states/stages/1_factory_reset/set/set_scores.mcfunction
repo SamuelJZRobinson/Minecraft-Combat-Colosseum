@@ -49,11 +49,16 @@ scoreboard players set isGreenAlive PlayerCount 0
 scoreboard players set isYellowAlive PlayerCount 0
 scoreboard players set TeamsAliveCount PlayerCount 0
 
-# TIMER
-scoreboard objectives add Timer dummy {"bold":true,"color":"white","text":"Timer"}
-scoreboard players set minutes Timer 0
-scoreboard players set seconds Timer 0
-scoreboard players set COUNTDOWN_START Timer 3
+# Countdown Timer
+scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
+scoreboard players set minutes CountdownTimer 0
+scoreboard players set seconds CountdownTimer 0
+scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
+
+# Countup Timer
+scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
+scoreboard players set minutes CountupTimer 0
+scoreboard players set seconds CountupTimer 0
 
 # HIGHSCORES
 scoreboard objectives add Wins dummy {"bold":true,"color":"white","text":"Wins"}

@@ -12,7 +12,7 @@ team modify FFA friendlyFire true
 
 # Status
 title @a actionbar {"text":"Fight!","bold":true,"color":"gold"}
-function cl:sounds/timer_grace_end
+function cl:sounds/CountdownTimer_grace_end
 
-# Start Timer
-execute if score roundTime Settings matches 1.. run schedule function cl:utility/timer/tick 1t replace
+# Start CountdownTimer
+execute if score roundTime Settings matches 1.. run schedule function cl:utility/CountdownTimer/tick 1t replace

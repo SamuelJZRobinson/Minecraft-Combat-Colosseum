@@ -1,7 +1,7 @@
 say grace period
 
 # Notes
-  # Stage increment is handled by timer.
+  # Stage increment is handled by CountdownTimer.
   # Wall removal is handled by round.
 
 # Declare Started
