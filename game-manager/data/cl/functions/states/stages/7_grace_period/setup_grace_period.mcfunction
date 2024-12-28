@@ -1,10 +1,13 @@
+# Title Times
+title @a times 0t 20t 5t
+
 # No Grace
   # Title
-  execute if score graceSeconds Settings matches 0 run title @a actionbar {"text":"Get Ready","bold":true,"color":"gold"}
+  execute if score graceSeconds Settings matches 0 run title @a subtitle {"text":"Get Ready","bold":true,"color":"red"}
   execute if score graceSeconds Settings matches 0 run scoreboard players set seconds CountdownTimer 4
 # Grace
   # Title
-  execute if score graceSeconds Settings matches 1.. run title @a actionbar {"text":"Grace Period","bold":true,"color":"gold"}
+  execute if score graceSeconds Settings matches 1.. run title @a title {"text":"Grace Period","bold":true,"color":"red"}
   # Place Walls
   execute if score graceSeconds Settings matches 1.. run function cl:states/stages/7_grace_period/place/place_walls
   # Set Grace Time

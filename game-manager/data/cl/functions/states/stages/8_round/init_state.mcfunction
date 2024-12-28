@@ -11,7 +11,7 @@ function cl:states/stages/8_round/clear/clear_walls
 team modify FFA friendlyFire true
 
 # Title Fight
-title @a actionbar {"text":"Fight!","bold":true,"color":"green"}
+title @a subtitle {"text":"Fight!","bold":true,"color":"red"}
 function cl:sounds/timer_grace_end
 
 # Start CountdownTimer
