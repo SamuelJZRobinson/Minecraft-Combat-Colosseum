@@ -6,7 +6,6 @@ say grace period
 
 # Declare Started
 scoreboard players set started GameStatus 1
-scoreboard players set loading GameStatus 0
 
 # Request Grace
 tellraw @a "state 7"

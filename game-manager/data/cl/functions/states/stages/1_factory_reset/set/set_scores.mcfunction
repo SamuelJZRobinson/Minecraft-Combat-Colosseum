@@ -49,20 +49,6 @@ scoreboard players set isGreenAlive PlayerCount 0
 scoreboard players set isYellowAlive PlayerCount 0
 scoreboard players set TeamsAliveCount PlayerCount 0
 
-# TIMERS
-  # Countdown Timer
-  scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
-  scoreboard players set minutes CountdownTimer 0
-  scoreboard players set seconds CountdownTimer 0
-  scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
-  # Countup Timer
-  scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
-  scoreboard players set minutes CountupTimer 0
-  scoreboard players set seconds CountupTimer 0
-
-# HIGHSCORES
-scoreboard objectives add Wins dummy {"bold":true,"color":"white","text":"Wins"}
-
 # LIFE
 # Health
 scoreboard objectives add Health health {"bold":true,"color":"red","text":"❤"}
@@ -80,6 +66,20 @@ scoreboard objectives add PlayerLeave minecraft.custom:minecraft.leave_game {"bo
   # Keep trigger quit lowercase for convenience.
 scoreboard players reset * quit
 scoreboard objectives add quit trigger
+
+# TIMERS
+  # Countdown Timer
+  scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
+  scoreboard players set minutes CountdownTimer 0
+  scoreboard players set seconds CountdownTimer 0
+  scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
+  # Countup Timer
+  scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
+  scoreboard players set minutes CountupTimer 0
+  scoreboard players set seconds CountupTimer 0
+
+# HIGHSCORES
+scoreboard objectives add Wins dummy {"bold":true,"color":"white","text":"Wins"}
 
 # EXCEPTIONS
 scoreboard objectives add Exception dummy {"bold":true,"color":"white","text":"Exception"}
