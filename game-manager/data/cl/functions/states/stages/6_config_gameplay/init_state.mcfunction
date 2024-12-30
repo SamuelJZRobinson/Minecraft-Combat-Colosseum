@@ -22,9 +22,12 @@ execute if score doTileDrops Settings matches 0 run gamerule doTileDrops false
     # Unbreaking Tools
       # Handled by the main round
   # Damage Types
-    # Drown
-    execute if score doDrownDamage Settings matches 0 run gamerule drowningDamage false
-    execute if score doDrownDamage Settings matches 1 run gamerule drowningDamage true
+    # Drowning
+    execute if score doDrowningDamage Settings matches 0 run gamerule drowningDamage false
+    execute if score doDrowningDamage Settings matches 1 run gamerule drowningDamage true
+    # Fire
+    execute if score doFireDamage Settings matches 0 run gamerule fireDamage false
+    execute if score doFireDamage Settings matches 1 run gamerule fireDamage true
     # Fall
     execute if score doFallDamage Settings matches 0 run gamerule fallDamage false
     execute if score doFallDamage Settings matches 1 run gamerule fallDamage true
