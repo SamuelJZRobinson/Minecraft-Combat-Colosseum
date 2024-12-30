@@ -18,7 +18,7 @@ execute if score started GameStatus matches 1 run gamemode spectator @s
   execute if score started GameStatus matches 1 run title @s actionbar {"text":"Teleported to the arena","bold":true,"color":"red"}
 
 # Reset Scores
-scoreboard players reset @s PlayerLeave
+scoreboard players reset @s PlayerLeaves
 scoreboard players reset @s PlayerDeaths
 scoreboard players reset @s RespawnTicks
 
