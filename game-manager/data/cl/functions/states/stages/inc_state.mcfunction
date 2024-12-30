@@ -11,5 +11,4 @@
 scoreboard players add state GameStatus 1
 
 # Proceed
-tellraw @a "increment state"
 execute unless score state GameStatus matches 20.. run function cl:states/stages/manage_states

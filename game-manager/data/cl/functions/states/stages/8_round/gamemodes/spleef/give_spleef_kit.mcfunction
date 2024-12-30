@@ -1,1 +1,1 @@
-item replace entity @s hotbar.0 with iron_shovel{CanDestroy:["minecraft:snow_block"],Unbreakable:1b} 1
+item replace entity @s hotbar.0 with iron_shovel[can_break={predicates:[{blocks:"snow_block"}]},unbreakable={}] 1

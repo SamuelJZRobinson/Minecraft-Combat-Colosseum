@@ -1,5 +1,3 @@
-tellraw @a "state 3"
-
 # Init Values
 scoreboard players set started GameStatus 0
 

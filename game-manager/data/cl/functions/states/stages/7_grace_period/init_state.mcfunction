@@ -1,5 +1,3 @@
-tellraw @a "state 7"
-
 # Notes
   # Stage increment is handled by CountdownTimer.
   # Wall removal is handled by round.

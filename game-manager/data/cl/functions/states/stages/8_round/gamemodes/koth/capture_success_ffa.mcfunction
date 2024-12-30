@@ -7,7 +7,7 @@ scoreboard players reset * KothOwnerFFA
 scoreboard players set @s KothOwnerFFA 1
 
 # Launch Firework
-summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Colors:[I;8421504]}]}}}}
+summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;8421504]}]}}}}
 
 # Set Hill Name
   # Player To Sign

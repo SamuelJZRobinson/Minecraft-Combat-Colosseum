@@ -1,5 +1,3 @@
-tellraw @a "state 8"
-
 # Notes
   # If roundtime is infinite then quitting or score goals will end the round.
 

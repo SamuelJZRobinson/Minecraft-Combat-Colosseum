@@ -1,5 +1,3 @@
-say @a "state 6"
-
 # Notes
   # Team Teams friendly fire is always on to let players get familiar with it.
 

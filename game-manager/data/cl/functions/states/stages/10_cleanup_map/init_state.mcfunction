@@ -1,8 +1,6 @@
 # Notes
   # No need to clear walls since the entire arena is cleared.
   
-tellraw @a "state 10"
-
 # Clear Non-Player Entities
 kill @e[type=!player]
 

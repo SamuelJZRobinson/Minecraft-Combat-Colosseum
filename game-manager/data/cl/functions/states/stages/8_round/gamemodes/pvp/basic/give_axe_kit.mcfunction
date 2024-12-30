@@ -12,4 +12,4 @@ item replace entity @s hotbar.3 with bow 1
 item replace entity @s hotbar.4 with arrow 6
 
 # Hands
-item replace entity @s weapon.offhand with shield{BlockEntityTag:{Base:4,Patterns:[{Color:14,Pattern:"cr"},{Color:14,Pattern:"sc"},{Color:14,Pattern:"cbo"},{Color:4,Pattern:"flo"}]}} 1
+item replace entity @s weapon.offhand with shield[base_color="yellow",banner_patterns=[{pattern:"minecraft:cross",color:"red"},{pattern:"minecraft:straight_cross",color:"red"},{pattern:"minecraft:curly_border",color:"red"},{pattern:"minecraft:flower",color:"yellow"}]] 1

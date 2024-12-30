@@ -1,5 +1,3 @@
-tellraw @a "state 9"
-
 # Notes
   # Win conditions are currently based on the last alive except solo.
   # Winner must be declared first before being a spectator.

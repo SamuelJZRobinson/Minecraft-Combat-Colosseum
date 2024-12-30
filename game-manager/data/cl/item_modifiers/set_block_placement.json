@@ -1,4 +1,17 @@
-{
-  "function": "minecraft:set_nbt",
-  "tag": "{CanPlaceOn:[\"#cl:block_placement\"],placementSet:1b}"
-}
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:can_place_on": {
+        "predicates": [
+          {
+            "blocks": "#cl:block_placement"
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "placementSet": true
+      }
+    }
+  }
+]

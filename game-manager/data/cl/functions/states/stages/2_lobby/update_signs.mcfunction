@@ -15,7 +15,7 @@ function cl:states/stages/2_lobby/merge/merge_grace_period
 
 # Player Settings
 function cl:states/stages/2_lobby/merge/merge_respawn_time
-function cl:states/stages/2_lobby/merge/merge_natural_regeneration 
+function cl:states/stages/2_lobby/merge/merge_natural_regeneration
 function cl:states/stages/2_lobby/merge/merge_unbreakable_tools
 
 # Environmental Settings

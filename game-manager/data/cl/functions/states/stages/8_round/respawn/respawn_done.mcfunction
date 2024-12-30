@@ -1,5 +1,3 @@
-say @p respawn
-
 # Reset Scores
 scoreboard players reset @s RespawnTicks
 
