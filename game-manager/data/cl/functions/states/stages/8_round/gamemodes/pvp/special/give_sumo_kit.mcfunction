@@ -1,2 +1,2 @@
 # Hotbar
-item replace entity @s hotbar.0 with lightning_rod{Enchantments:[{id:"minecraft:knockback",lvl:2s}]} 1
+item replace entity @s hotbar.0 with lightning_rod[enchantments={levels:{"minecraft:knockback":2}}] 1

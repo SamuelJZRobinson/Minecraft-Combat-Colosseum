@@ -8,4 +8,4 @@ item replace entity @s armor.feet with minecraft:iron_boots
 item replace entity @s hotbar.0 with iron_sword 1
 item replace entity @s hotbar.1 with bow 1
 item replace entity @s hotbar.2 with arrow 6
-item replace entity @s hotbar.3 with firework_rocket{Fireworks:{Flight:1b}} 64
+item replace entity @s hotbar.3 with firework_rocket[fireworks={flight_duration:1}] 64
