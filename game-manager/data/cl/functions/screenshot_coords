@@ -1,0 +1,18 @@
+Front Exterior
+/tp @p 255.00 21.00 -386.00 0 22.5
+
+Arena
+  Roof View
+  /tp @p 256.00 19.00 -335.50 0 29
+  Ground View
+  /tp @p 313.50 -10.00 -255.00 90 25
+
+1st Floor
+  1st Hallway
+  /tp @p 257.00 -26.00 -342.00 41 0
+  3rd Hallway
+  /tp @p 258.50 -25.00 -314.50 49 0
+
+2nd Floor
+  Tiny Hallway
+  /tp @p 252.50 -10.50 -333.50 270 0
