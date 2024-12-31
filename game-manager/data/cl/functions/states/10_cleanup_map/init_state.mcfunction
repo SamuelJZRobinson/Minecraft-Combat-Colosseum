@@ -10,4 +10,4 @@ schedule function cl:states/10_cleanup_map/clear/clear_top 10t replace
 
 # Proceed
 scoreboard players set state GameStatus 1
-schedule function cl:states/manage_states 1t replace
+schedule function cl:states/manage_states 11t replace

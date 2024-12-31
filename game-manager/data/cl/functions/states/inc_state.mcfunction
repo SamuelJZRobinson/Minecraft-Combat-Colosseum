@@ -11,4 +11,4 @@
 scoreboard players add state GameStatus 1
 
 # Proceed
-execute unless score state GameStatus matches 20.. run function cl:states/manage_states
+function cl:states/manage_states

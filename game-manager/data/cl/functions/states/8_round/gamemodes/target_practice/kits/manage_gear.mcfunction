@@ -1,0 +1,2 @@
+execute if score combatClass Settings matches 1 run function cl:states/8_round/gamemodes/target_practice/kits/give_bow_kit
+execute if score combatClass Settings matches 2 run function cl:states/8_round/gamemodes/target_practice/kits/give_crossbow_kit
