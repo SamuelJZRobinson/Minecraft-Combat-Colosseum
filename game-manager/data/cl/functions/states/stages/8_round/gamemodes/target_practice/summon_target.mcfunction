@@ -1,1 +1,0 @@
-summon magma_cube ~ ~ ~ {NoGravity:1b,Glowing:1b,DeathTime:400,Team:"Mobs",NoAI:1b,Health:1f,Size:0,Attributes:[{Name:"generic.max_health",Base:1}]}

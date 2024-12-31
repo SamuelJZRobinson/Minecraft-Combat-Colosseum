@@ -1,0 +1,1 @@
+execute if score started GameStatus matches 0 if score isSolo Settings matches 1 run tag @s add soloCandidate

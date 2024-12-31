@@ -7,5 +7,8 @@ recipe take @a *
 # Team Lobby
 team join Lobby @a
 
+# Remove Tags
+tag @a remove soloCandidate
+
 # Teleport To Lobby
 execute as @a run function cl:utility/teleports/tp_lobby

@@ -7,6 +7,7 @@ function cl:states/stages/1_factory_reset/set/set_scores
 function cl:states/stages/1_factory_reset/set/set_scores_gamemodes
 function cl:states/stages/1_factory_reset/set/set_teams
 function cl:states/stages/1_factory_reset/set/set_players
+function cl:states/stages/1_factory_reset/clear/clear_arena
 
 # Set Gamemode
 gamemode adventure @a

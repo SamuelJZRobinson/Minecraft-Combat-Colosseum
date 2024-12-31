@@ -5,6 +5,8 @@
   # Spawn Koth Hill
   execute if score gamemode Settings matches 3 run function cl:states/stages/8_round/gamemodes/koth/init
   execute if score gamemode Settings matches 4 run function cl:states/stages/8_round/gamemodes/koth/init
+  # Spawn Target Practice Targets
+  execute if score gamemode Settings matches 6 run function cl:states/stages/8_round/gamemodes/target_practice/init
   
 # Tile Drops
 execute if score doTileDrops Settings matches 1 run gamerule doTileDrops true

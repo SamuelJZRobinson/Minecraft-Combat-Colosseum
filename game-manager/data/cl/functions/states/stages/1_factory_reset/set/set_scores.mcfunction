@@ -1,5 +1,5 @@
 # Hide All Objectives
-scoreboard objectives setdisplay sidebar
+# scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay below_name
 
 # Set Scores

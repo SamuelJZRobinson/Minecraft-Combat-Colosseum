@@ -19,6 +19,8 @@
     execute if score gamemode Settings matches 4 run function cl:states/stages/8_round/gamemodes/koth/win/manage_win
     # Spleef
     execute if score gamemode Settings matches 5 run function cl:states/stages/8_round/gamemodes/spleef/win/manage_win
+    # Target Practice
+    execute if score gamemode Settings matches 6 run function cl:states/stages/8_round/gamemodes/target_practice/win/manage_win
 
   # Declare Win
   execute if score gameWon GameStatus matches 1 run schedule function cl:states/stages/inc_state 1t replace

@@ -29,7 +29,7 @@ execute if score gamemode Settings matches 5 run scoreboard players set doTileDr
 execute if score gamemode Settings matches 5 run scoreboard players set doEdgeTrap Settings 0
 # Target Practice
 execute if score gamemode Settings matches 6 run data merge block 246 -29 -153 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Gamemode","color":"dark_red","underlined":true}','{"text":"Target Practice","color":"red"}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:states/stages/2_lobby/set/set_gamemode"}}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:sounds/menu_click"}}']}}
-execute if score gamemode Settings matches 6 run scoreboard players set maxClass Settings 1
+execute if score gamemode Settings matches 6 run scoreboard players set maxClass Settings 2
 execute if score gamemode Settings matches 6 run scoreboard players set maxScenery Settings 1
 execute if score gamemode Settings matches 6 run scoreboard players set isSolo Settings 1
 execute if score gamemode Settings matches 6 run scoreboard players set doEdgeTrap Settings 0

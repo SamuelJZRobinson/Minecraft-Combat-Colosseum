@@ -78,3 +78,7 @@ scoreboard players set lobbyAliveCount AssignTeams 0
     scoreboard players reset * KothTickFFA
     scoreboard objectives add KothOwnerFFA dummy
     scoreboard players reset * KothOwnerFFA
+  # Target Practice
+  scoreboard objectives add TargetPractice dummy {"bold":true,"color":"white","text":"Target Practice"}
+  scoreboard players set targetsLeft TargetPractice 0
+  scoreboard players set wavesLeft TargetPractice 3
