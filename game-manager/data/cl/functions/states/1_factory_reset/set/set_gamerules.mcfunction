@@ -1,4 +1,7 @@
-# PLAYER
+# Notes
+  # Keep spectatorsGenerateChunks true to ensure air is cloned into the arena if everyone is in spectate mode.
+
+# Player
 gamerule announceAdvancements false
 gamerule disableElytraMovementCheck false
 gamerule doImmediateRespawn true
@@ -8,16 +11,16 @@ gamerule showDeathMessages true
 gamerule keepInventory true
 gamerule spawnRadius 0
 
-# DAMAGE TYPES
+# Damage Types
 gamerule fireDamage true
 
-# BLOCKS
+# Blocks
 gamerule doTileDrops false
 gamerule blockExplosionDropDecay true
 gamerule mobExplosionDropDecay true
 gamerule tntExplosionDropDecay true
 
-# ENVRIONMENT
+# Environment
 gamerule doFireTick true
 gamerule doWeatherCycle false
 gamerule globalSoundEvents false
@@ -25,9 +28,9 @@ gamerule lavaSourceConversion true
 gamerule waterSourceConversion true
 gamerule randomTickSpeed 0
 gamerule snowAccumulationHeight 0
-gamerule spectatorsGenerateChunks false
+gamerule spectatorsGenerateChunks true
 
-# MOBS
+# Mobs
 gamerule disableRaids true
 gamerule doEntityDrops false
 gamerule doMobLoot false
@@ -40,14 +43,13 @@ gamerule mobGriefing false
 gamerule universalAnger true
 gamerule forgiveDeadPlayers true
 
-# WORLD BORDER
+# World Border
 worldborder set 502
-
 worldborder damage amount 0.25
 worldborder damage buffer 0
 worldborder center 256.00 -255.00
 
-# COMMANDS
+# Commands
 gamerule commandBlockOutput true
 gamerule logAdminCommands false
 gamerule reducedDebugInfo false
