@@ -1,0 +1,1 @@
+data merge block 257 -28 -142 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Ideal Settings","color":"dark_red","underlined":true}','{"text":""}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:states/2_lobby/show/show_ideal_settings"}}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:sounds/menu_click"}}']}}

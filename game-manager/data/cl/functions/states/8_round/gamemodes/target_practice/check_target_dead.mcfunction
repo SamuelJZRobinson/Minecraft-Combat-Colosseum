@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=deathDetector] at @s unless entity @e[type=minecraft:magma_cube,tag=target,distance=..2] run function cl:states/8_round/gamemodes/target_practice/target_dead

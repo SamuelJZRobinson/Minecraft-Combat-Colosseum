@@ -1,0 +1,10 @@
+execute if score state GameStatus matches 1 run function cl:states/1_factory_reset/init_state
+execute if score state GameStatus matches 2 run function cl:states/2_lobby/init_state
+execute if score state GameStatus matches 3 run function cl:states/3_start_request/init_state
+execute if score state GameStatus matches 4 run function cl:states/4_setup_map/init_state
+execute if score state GameStatus matches 5 run function cl:states/5_assign_teams/init_state
+execute if score state GameStatus matches 6 run function cl:states/6_config_gameplay/init_state
+execute if score state GameStatus matches 7 run function cl:states/7_grace_period/init_state
+execute if score state GameStatus matches 8 run function cl:states/8_round/init_state
+execute if score state GameStatus matches 9 run function cl:states/9_gameover/init_state
+execute if score state GameStatus matches 10 run function cl:states/10_cleanup_map/init_state

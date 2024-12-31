@@ -1,4 +1,0 @@
-# FFA
-execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/set/set_scoreboards_koth_ffa
-# Teams
-execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/stages/6_config_gameplay/set/set_scoreboards_koth_teams

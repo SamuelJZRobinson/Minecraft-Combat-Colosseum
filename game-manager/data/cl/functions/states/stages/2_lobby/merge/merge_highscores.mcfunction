@@ -1,1 +1,0 @@
-data merge block 255 -28 -142 {front_text:{color:"brown",has_glowing_text:1b,messages:['{"text":"Highscores","color":"dark_red","underlined":true}','{"text":""}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:states/stages/2_lobby/show/show_highscores"}}','{"text":"","clickEvent":{"action":"run_command","value":"/function cl:sounds/menu_click"}}']}}

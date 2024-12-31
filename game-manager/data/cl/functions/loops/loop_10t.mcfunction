@@ -1,7 +1,7 @@
 # Round Active
-execute if score started GameStatus matches 1 if score state GameStatus matches 8 run function cl:states/stages/8_round/manage_loop_10t
+execute if score started GameStatus matches 1 if score state GameStatus matches 8 run function cl:states/8_round/manage_loop_10t
 
-function cl:states/stages/8_round/gamemodes/target_practice/check_target_dead
+function cl:states/8_round/gamemodes/target_practice/check_target_dead
 
 # Players
   # Assign No Team To Lobby

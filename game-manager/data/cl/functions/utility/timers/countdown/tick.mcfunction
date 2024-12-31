@@ -12,4 +12,4 @@ execute if score minutes CountdownTimer matches 0 if score seconds CountdownTime
 execute if score seconds CountdownTimer matches 1.. run schedule function cl:utility/timers/countdown/tick 1s replace
 
 # Proceed
-execute if score minutes CountdownTimer matches 0 if score seconds CountdownTimer matches ..0 run schedule function cl:states/stages/inc_state 1t replace
+execute if score minutes CountdownTimer matches 0 if score seconds CountdownTimer matches ..0 run schedule function cl:states/inc_state 1t replace
