@@ -63,7 +63,8 @@ scoreboard players set lobbyAliveCount AssignTeams 0
   scoreboard objectives add Koth dummy {"bold":true,"color":"white","text":"KOTH"}
     # General
     scoreboard players set contestersCount Koth 0
-    scoreboard players set CAPTURE_TICKS_DELAY Koth 100
+    scoreboard players set CAPTURE_TICKS_DELAY_TEAMS Koth 100
+    scoreboard players set CAPTURE_TICKS_DELAY_FFA Koth 20
     scoreboard players set captureTicks Koth 0
     scoreboard players set SCORE_TICKS_DELAY Koth 20
     scoreboard players set scoreTicks Koth 0
