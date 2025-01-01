@@ -1,6 +1,3 @@
-# Notes
-  # Keep spectatorsGenerateChunks true to ensure air is cloned into the arena if everyone is in spectate mode.
-
 # Player
 gamerule announceAdvancements false
 gamerule disableElytraMovementCheck false
