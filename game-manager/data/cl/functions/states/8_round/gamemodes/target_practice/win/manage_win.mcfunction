@@ -2,3 +2,7 @@ execute if score wave TargetPractice >= WAVE_GOAL TargetPractice if score target
 
 # Proceed
 execute if score gameWon GameStatus matches 1 run function cl:states/8_round/gamemodes/target_practice/win/set_win_solo
+
+# End Game If Team Empty
+execute unless entity @a[team=Solo] run scoreboard players set state GameStatus 9
+execute unless entity @a[team=Solo] run schedule function cl:states/manage_states 1t replace
