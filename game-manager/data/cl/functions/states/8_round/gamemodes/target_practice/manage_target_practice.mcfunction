@@ -1,1 +1,2 @@
-execute if score waves TargetPractice matches 1.. if score targetsLeft TargetPractice matches ..0 run function cl:states/8_round/gamemodes/target_practice/place/start_wave
+# Spawn Targets
+execute if score wave TargetPractice < WAVE_GOAL TargetPractice if score targetsLeft TargetPractice matches ..0 run function cl:states/8_round/gamemodes/target_practice/place/start_wave

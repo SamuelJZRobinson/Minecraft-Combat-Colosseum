@@ -82,7 +82,7 @@ scoreboard players set lobbyAliveCount AssignTeams 0
   # Target Practice
   scoreboard objectives add TargetPractice dummy {"bold":true,"color":"white","text":"Target Practice"}
   scoreboard players set targetsLeft TargetPractice 0
-  scoreboard players set waves TargetPractice 1
+  scoreboard players set wave TargetPractice 1
   scoreboard players set WAVE_GOAL TargetPractice 3
   scoreboard objectives add BowUsed minecraft.used:minecraft.bow {"bold":true,"color":"white","text":"Bow Used"}
   scoreboard players reset * BowUsed
