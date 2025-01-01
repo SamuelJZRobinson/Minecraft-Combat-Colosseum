@@ -28,7 +28,7 @@ gamerule lavaSourceConversion true
 gamerule waterSourceConversion true
 gamerule randomTickSpeed 0
 gamerule snowAccumulationHeight 0
-gamerule spectatorsGenerateChunks true
+gamerule spectatorsGenerateChunks false
 
 # Mobs
 gamerule disableRaids true

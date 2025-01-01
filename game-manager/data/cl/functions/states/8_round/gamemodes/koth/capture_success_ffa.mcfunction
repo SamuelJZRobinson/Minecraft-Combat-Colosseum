@@ -11,6 +11,6 @@ summon firework_rocket ~ ~ ~ {LifeTime:20,FireworksItem:{id:"minecraft:firework_
 
 # Set Hill Name
   # Player To Sign
-  setblock 256 -32 -140 oak_wall_sign[facing=south]{front_text:{messages:['{"selector":"@p[scores={KothOwnerFFA=1..}]"}','{"text":""}','{"text":""}','{"text":""}']}} destroy
+  setblock 256 -31 -208 oak_wall_sign[facing=south]{front_text:{messages:['{"selector":"@p[scores={KothOwnerFFA=1..}]"}','{"text":""}','{"text":""}','{"text":""}']}} destroy
   # Sign to Armourstand
-  data modify entity @e[type=armor_stand,limit=1,sort=nearest] CustomName set from block 256 -32 -140 front_text.messages[0]
+  data modify entity @e[type=armor_stand,limit=1,sort=nearest] CustomName set from block 256 -31 -208 front_text.messages[0]
