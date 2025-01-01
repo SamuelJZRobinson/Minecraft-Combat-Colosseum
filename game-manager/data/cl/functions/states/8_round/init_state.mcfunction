@@ -1,7 +1,7 @@
 # Notes
   # If roundtime is infinite then quitting or score goals will end the round.
 
-# Clear Walls
+# Clear Grace Walls
 function cl:states/8_round/clear/clear_walls
 
 # Enable FFA Friendly Fire

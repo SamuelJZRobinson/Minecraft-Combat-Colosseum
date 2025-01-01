@@ -4,9 +4,15 @@
 # Clear Non-Player Entities
 kill @e[type=!player]
 
+# Disable Title Drops
+gamerule doTileDrops false
+
 # Clear Arena
 function cl:states/10_cleanup_map/clear/clear_bottom
 schedule function cl:states/10_cleanup_map/clear/clear_top 10t replace
+
+# Enable Tile Drops
+gamerule doTileDrops true
 
 # Proceed
 scoreboard players set state GameStatus 1

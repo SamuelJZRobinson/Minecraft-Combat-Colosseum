@@ -20,7 +20,7 @@ scoreboard players set graceSeconds Settings 0
 scoreboard players set respawnTime Settings 0
 scoreboard players set doNaturalRegen Settings 0
 scoreboard players set doUnbreakableTools Settings 0
-# Environmental
+# Environment
 scoreboard players set scenery Settings 1
 scoreboard players set edgeTrap Settings 0
 scoreboard players set timeOfDay Settings 1

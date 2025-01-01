@@ -18,7 +18,7 @@ function cl:states/2_lobby/merge/merge_respawn_time
 function cl:states/2_lobby/merge/merge_natural_regeneration
 function cl:states/2_lobby/merge/merge_unbreakable_tools
 
-# Environmental Settings
+# Environment Settings
 function cl:states/2_lobby/merge/merge_scenery
 function cl:states/2_lobby/merge/merge_edge_trap
 function cl:states/2_lobby/merge/merge_time_of_day
