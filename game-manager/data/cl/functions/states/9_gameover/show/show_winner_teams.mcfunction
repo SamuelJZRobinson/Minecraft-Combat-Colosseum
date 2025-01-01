@@ -1,2 +1,2 @@
 # Title
-title @a title {"color":"gold","text":"Gameover"}
+title @a title {"color":"red","text":"Gameover"}
