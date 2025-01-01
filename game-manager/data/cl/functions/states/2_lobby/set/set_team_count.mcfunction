@@ -4,3 +4,5 @@ execute if score teamCount Settings > maxTeamCount Settings run scoreboard playe
 
 # Render
 function cl:states/2_lobby/merge/merge_team_count
+function cl:states/2_lobby/merge/merge_gamemode
+function cl:states/2_lobby/merge/merge_grace_period

@@ -47,14 +47,14 @@ scoreboard players set lobbyAliveCount AssignTeams 0
 
 # Timers
   # Countdown Timer
-  scoreboard objectives add CountdownTimer dummy {"bold":true,"color":"white","text":"Countdown Timer"}
-  scoreboard players set minutes CountdownTimer 0
-  scoreboard players set seconds CountdownTimer 0
-  scoreboard players set COUNTDOWN_SECONDS_START CountdownTimer 3
+  scoreboard objectives add TimerCountdown dummy {"bold":true,"color":"white","text":"Timer Countdown"}
+  scoreboard players set minutes TimerCountdown 0
+  scoreboard players set seconds TimerCountdown 0
+  scoreboard players set COUNTDOWN_SECONDS_START TimerCountdown 3
   # Countup Timer
-  scoreboard objectives add CountupTimer dummy {"bold":true,"color":"white","text":"Countup Timer"}
-  scoreboard players set minutes CountupTimer 0
-  scoreboard players set seconds CountupTimer 0
+  scoreboard objectives add TimerCountup dummy {"bold":true,"color":"white","text":"Timer Countup"}
+  scoreboard players set minutes TimerCountup 0
+  scoreboard players set seconds TimerCountup 0
 
 # Gamemode Specific
   # Normal PVP And Special PVP
@@ -81,4 +81,9 @@ scoreboard players set lobbyAliveCount AssignTeams 0
   # Target Practice
   scoreboard objectives add TargetPractice dummy {"bold":true,"color":"white","text":"Target Practice"}
   scoreboard players set targetsLeft TargetPractice 0
-  scoreboard players set wavesLeft TargetPractice 3
+  scoreboard players set waves TargetPractice 1
+  scoreboard players set WAVE_GOAL TargetPractice 3
+  scoreboard objectives add BowUsed minecraft.used:minecraft.bow {"bold":true,"color":"white","text":"Bow Used"}
+  scoreboard players reset * BowUsed
+  scoreboard objectives add CrossbowUsed minecraft.used:minecraft.crossbow {"bold":true,"color":"white","text":"Crossbow Used"}
+  scoreboard players reset * CrossbowUsed

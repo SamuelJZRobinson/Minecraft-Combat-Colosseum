@@ -7,7 +7,6 @@ scoreboard players set gamemode Settings 1
 scoreboard players set class Settings 1
 scoreboard players set teamCount Settings 1
 scoreboard players set graceSeconds Settings 0
-scoreboard players set roundTime Settings 0
   # Game Limits 
   scoreboard players set maxClass Settings 0
   scoreboard players set minTeamCount Settings 0
@@ -15,6 +14,7 @@ scoreboard players set roundTime Settings 0
   scoreboard players set isSolo Settings 0
   scoreboard players set doRespawn Settings 0
   scoreboard players set doTileDrops Settings 1
+  scoreboard players set doGrace Settings 1
   scoreboard players set doEdgeTrap Settings 1
 # Players
 scoreboard players set respawnTime Settings 0

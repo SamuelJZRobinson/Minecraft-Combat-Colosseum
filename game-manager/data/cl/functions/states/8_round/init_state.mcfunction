@@ -11,5 +11,5 @@ team modify FFA friendlyFire true
 title @a subtitle {"text":"Fight!","bold":true,"color":"red"}
 function cl:sounds/timer_grace_end
 
-# Start CountdownTimer
+# Start TimerCountdown
 execute if score roundTime Settings matches 1.. run schedule function cl:utility/timers/countdown/tick 1t replace
