@@ -2,6 +2,7 @@
   # Win conditions are currently based on the last alive except solo.
   # Winner must be declared first before being a spectator.
   # Winner is set during rounds.
+  # Title subtitles are set in gamemode win.
 
 # Stop All Respawns
 scoreboard players reset * PlayerDeaths
@@ -18,10 +19,7 @@ title @a times 10t 40t 10t
 gamemode spectator @a
 
 # Declare Winner
-  # FFA
-  execute if score teamCount Settings matches 1 if score isSolo Settings matches 0 run function cl:states/9_gameover/show/show_winner_ffa
-  # Teams
-  execute if score teamCount Settings matches 2.. if score isSolo Settings matches 0 run function cl:states/9_gameover/show/show_winner_teams
+title @a title {"color":"red","text":"Gameover"}
 
 # Proceed
 schedule function cl:states/inc_state 4s replace
