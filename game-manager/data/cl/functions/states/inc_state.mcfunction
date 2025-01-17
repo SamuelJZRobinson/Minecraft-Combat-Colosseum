@@ -8,7 +8,7 @@
     # Schedule each manage_increment call to external functions.
 
 # Increment
-scoreboard players add state GameStatus 1
+scoreboard players add gameState GameStatus 1
 
 # Proceed
 function cl:states/manage_states

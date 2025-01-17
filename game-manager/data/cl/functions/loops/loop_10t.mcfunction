@@ -1,13 +1,13 @@
 # Round Active
-execute if score started GameStatus matches 1 if score state GameStatus matches 8 run function cl:states/8_round/manage_loop_10t
-
-function cl:states/8_round/gamemodes/target_practice/check_target_dead
+execute if score isGameStarted GameStatus matches 1 if score gameState GameStatus matches 8 run function cl:states/8_round/manage_loop_10t
 
 # Players
   # Assign No Team To Lobby
-  execute if score started GameStatus matches 0 run team join Lobby @a[team=!Lobby]
+  execute if score isGameStarted GameStatus matches 0 run team join Lobby @a[team=!Lobby]
+  # Set Lobby Gamemode
+  execute if score isGameStarted GameStatus matches 0 if score gameState GameStatus matches 2 run gamemode adventure @a[team=Lobby,gamemode=!adventure]
   # Lobby Deaths
-  execute if score started GameStatus matches 0 as @a[scores={PlayerDeaths=1..}] run function cl:loops/player_rejoins
+  execute if score isGameStarted GameStatus matches 0 as @a[scores={PlayerDeaths=1..}] run function cl:loops/player_rejoins
   # Rejoins
   execute as @a[scores={PlayerLeaves=1..}] run function cl:loops/player_rejoins
   # Quit

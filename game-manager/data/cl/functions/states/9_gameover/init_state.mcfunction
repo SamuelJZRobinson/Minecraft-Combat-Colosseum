@@ -12,7 +12,7 @@ scoreboard players reset * RespawnTicks
 scoreboard players reset * lobby
 
 # Set Values
-scoreboard players set started GameStatus 0
+scoreboard players set isGameStarted GameStatus 0
 title @a times 10t 40t 10t
 
 # Spectate Gamemode

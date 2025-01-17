@@ -21,8 +21,9 @@
     execute if score gamemode Settings matches 5 run function cl:states/8_round/gamemodes/spleef/win/manage_win
     # Target Practice
     execute if score gamemode Settings matches 6 run function cl:states/8_round/gamemodes/target_practice/win/manage_win
+    execute if score gamemode Settings matches 6 run function cl:states/8_round/gamemodes/target_practice/check_target_dead
 
   # Declare Win
-  execute if score gameWon GameStatus matches 1 run schedule function cl:states/inc_state 1t replace
+  execute if score isGameWon GameStatus matches 1 run schedule function cl:states/inc_state 1t replace
 
 ### no players remain

@@ -2,7 +2,7 @@
 function cl:utility/count/count_players_ffa
 
 # 1 Player Remains
-execute if score ffaAliveCount PlayerCountFFA matches 1 run scoreboard players set gameWon GameStatus 1
+execute if score ffaAliveCount PlayerCountFFA matches 1 run scoreboard players set isGameWon GameStatus 1
 
 # Proceed
-execute if score gameWon GameStatus matches 1 run function cl:states/8_round/gamemodes/pvp/win/set_win_ffa
+execute if score isGameWon GameStatus matches 1 run function cl:states/8_round/gamemodes/pvp/win/set_win_ffa

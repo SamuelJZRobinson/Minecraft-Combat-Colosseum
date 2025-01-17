@@ -2,7 +2,7 @@
 scoreboard players set lobbyAliveCount AssignTeams 0
 
 # Declare Started
-scoreboard players set started GameStatus 1
+scoreboard players set isGameStarted GameStatus 1
 
 # Place Blank Signs
 function cl:states/2_lobby/place_empty_signs

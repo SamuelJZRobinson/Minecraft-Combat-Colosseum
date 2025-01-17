@@ -1,1 +1,1 @@
-execute if score started GameStatus matches 1 run function cl:utility/exceptions/raise_warning {message:"Cannot reset, already running!"}
+execute if score isGameStarted GameStatus matches 1 run function cl:utility/exceptions/raise_warning {message:"Cannot reset, already running!"}

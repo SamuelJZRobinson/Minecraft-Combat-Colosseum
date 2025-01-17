@@ -1,9 +1,3 @@
-# Game Status
-scoreboard objectives add GameStatus dummy {"bold":true,"color":"white","text":"Game Status"}
-scoreboard players set started GameStatus 0
-scoreboard players set state GameStatus 1
-scoreboard players set gameWon GameStatus 0
-
 # Players
   # Kills
   scoreboard objectives add PlayerKills minecraft.custom:minecraft.player_kills {"bold":true,"color":"white","text":"Player Kills"}
@@ -16,7 +10,6 @@ scoreboard players set gameWon GameStatus 0
   scoreboard players reset * RespawnTicks
   # Leave Game
   scoreboard objectives add PlayerLeaves minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}
-  scoreboard players reset * PlayerLeaves
 
 # Assign Teams
 scoreboard objectives add AssignTeams dummy {"bold":true,"color":"white","text":"Assign Teams"}
