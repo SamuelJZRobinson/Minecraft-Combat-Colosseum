@@ -14,8 +14,9 @@ scoreboard players set gameWon GameStatus 0
   # Respawn
   scoreboard objectives add RespawnTicks dummy {"bold":true,"color":"white","text":"Respawn Seconds"}
   scoreboard players reset * RespawnTicks
-  # Leave Game (Don't Reset)
+  # Leave Game
   scoreboard objectives add PlayerLeaves minecraft.custom:minecraft.leave_game {"bold":true,"color":"white","text":"Player Leave"}
+  scoreboard players reset * PlayerLeaves
 
 # Assign Teams
 scoreboard objectives add AssignTeams dummy {"bold":true,"color":"white","text":"Assign Teams"}
