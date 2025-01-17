@@ -15,5 +15,5 @@ schedule function cl:states/10_cleanup_map/clear/clear_top 10t replace
 gamerule doTileDrops true
 
 # Proceed
-scoreboard players set state GameStatus 1
+scoreboard players set state GameStatus 2
 schedule function cl:states/manage_states 11t replace
