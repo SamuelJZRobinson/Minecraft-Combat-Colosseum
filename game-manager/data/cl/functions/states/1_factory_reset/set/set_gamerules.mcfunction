@@ -8,9 +8,6 @@ gamerule showDeathMessages true
 gamerule keepInventory true
 gamerule spawnRadius 0
 
-# Damage Types
-gamerule fireDamage true
-
 # Blocks
 gamerule doTileDrops false
 gamerule blockExplosionDropDecay true
