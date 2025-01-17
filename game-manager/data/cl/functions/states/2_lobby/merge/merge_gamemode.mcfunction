@@ -25,6 +25,7 @@ scoreboard players set doGrace Settings 1
 # Set Limits
 execute if score isSolo Settings matches 1 run scoreboard players set maxTeamCount Settings 1
 execute if score teamCount Settings > maxTeamCount Settings run scoreboard players set teamCount Settings 1
+execute if score scenery Settings > maxScenery Settings run scoreboard players operation scenery Settings = maxScenery Settings
 
 # Ban Grace For FFA
 execute if score teamCount Settings matches 1 run scoreboard players set doGrace Settings 0
