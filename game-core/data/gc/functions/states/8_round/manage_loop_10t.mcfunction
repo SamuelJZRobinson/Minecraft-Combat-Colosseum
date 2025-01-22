@@ -25,5 +25,3 @@
 
   # Declare Win
   execute if score isGameWon GameStatus matches 1 run schedule function gc:states/inc_state 1t replace
-
-### no players remain
