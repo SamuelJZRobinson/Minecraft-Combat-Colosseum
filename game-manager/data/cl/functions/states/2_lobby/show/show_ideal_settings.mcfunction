@@ -1,1 +1,2 @@
-tellraw @s {"text":"Ideal Settings (Hover)","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Brightness: ","color":"dark_red"},{"text":"100%","color":"red"},"\n","Entity Distance: ",{"text":"150%+","color":"red"}]}}
+tellraw @s [{"bold":true,"color":"dark_red","text":"Brightness: "},{"bold":false,"color":"red","text":"100%\n"},{"bold":true,"color":"dark_red","text":"Entity Distance: "},{"bold":false,"color":"red","text":"150%+"}]
+tellraw @s {"text":"\n"}
