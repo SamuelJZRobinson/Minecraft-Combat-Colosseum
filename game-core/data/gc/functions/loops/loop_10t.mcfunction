@@ -5,7 +5,7 @@ execute if score isGameStarted GameStatus matches 1 if score gameState GameStatu
   # Assign No Team To Lobby
   execute if score isGameStarted GameStatus matches 0 run team join Lobby @a[team=!Lobby]
   # Set Lobby Gamemode
-  # execute if score isGameStarted GameStatus matches 0 if score gameState GameStatus matches 2 run gamemode adventure @a[team=Lobby,gamemode=!adventure]
+  execute if score isGameStarted GameStatus matches 0 if score gameState GameStatus matches 2 run gamemode adventure @a[team=Lobby,gamemode=!adventure]
   # Lobby Deaths
   execute if score isGameStarted GameStatus matches 0 as @a[scores={PlayerDeaths=1..}] run function gc:loops/player_rejoins
   # Rejoins
