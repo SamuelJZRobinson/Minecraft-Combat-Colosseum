@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:can_place_on": {
+        "predicates": [
+          {
+            "blocks": "#gc:block_placement"
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "placementSet": true
+      }
+    }
+  }
+]

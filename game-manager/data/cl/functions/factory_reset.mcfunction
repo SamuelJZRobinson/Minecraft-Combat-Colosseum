@@ -1,1 +1,0 @@
-function cl:states/1_factory_reset/init_state
